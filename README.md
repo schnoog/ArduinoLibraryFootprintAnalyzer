@@ -31,6 +31,22 @@ DFRobot_VL53L0X on the other side uses 4770 Bytes, equal to 19% of the avaiable 
 
 After reviewing the results I decided that the differences are so huge, that I`ll write a script collection to collect that data automatically
 
+## How it (hopefully) will work
 
+### System
+- Debian 11 Server
+- PHP 8.1.13
+- arduino-cli (brew install)
+- mysql / maria-db server
 
+### Concept
+- A list with urls to the library repositories
+- A library is cloned, the properties defined within extracted
+- All examples provided with the library will be compiled
+- The result for the example with the smallest footprint is saved in the database (since there are even within the official Arduino Library list libaries with the same repo-name, the system will use a combination of the repo-url and provided name as well as version as identifyer)
+- .... maybe more... but that's the starting point.
+
+#### Current gaps
+- Installing of depends 
+- Different build platforms
 
