@@ -33,7 +33,7 @@ CREATE TABLE `libs` (
   `lib_minprogspace` int(11) NOT NULL DEFAULT 0,
   `lib_mindynspace` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `UniqLibVer` (`lib_url`,`lib_version`) USING HASH
+  UNIQUE KEY `UniqLibVer` (`lib_url`(255),`lib_version`) USING HASH
 ) ENGINE=InnoDB AUTO_INCREMENT=29824 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -115,4 +115,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-05-01 20:28:24
+-- Dump completed on 2023-05-01 20:42:47
