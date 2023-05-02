@@ -49,30 +49,6 @@
             "object": "lib"
         },
         {
-            "id": "65",
-            "lib_name": "Robot Control",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/Robot_Control.git",
-            "lib_version": "1.0.4",
-            "lib_depends": "",
-            "lib_architectures": ",avr,",
-            "lib_lastcheck": "1682959543",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
-            "object": "lib"
-        },
-        {
-            "id": "73",
-            "lib_name": "Robot Motor",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/Robot_Motor.git",
-            "lib_version": "1.0.3",
-            "lib_depends": "",
-            "lib_architectures": ",avr,",
-            "lib_lastcheck": "1682959546",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
-            "object": "lib"
-        },
-        {
             "id": "108",
             "lib_name": "SD",
             "lib_url": "https:\/\/github.com\/arduino-libraries\/SD.git",
@@ -94,18 +70,6 @@
             "lib_lastcheck": "1682958681",
             "lib_minprogspace": "5122",
             "lib_mindynspace": "190",
-            "object": "lib"
-        },
-        {
-            "id": "124",
-            "lib_name": "SpacebrewYun",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/SpacebrewYun.git",
-            "lib_version": "1.0.2",
-            "lib_depends": "Bridge",
-            "lib_architectures": ",avr,",
-            "lib_lastcheck": "1682959554",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
             "object": "lib"
         },
         {
@@ -169,18 +133,6 @@
             "object": "lib"
         },
         {
-            "id": "204",
-            "lib_name": "Madgwick",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/MadgwickAHRS.git",
-            "lib_version": "1.2.0",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959556",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
-            "object": "lib"
-        },
-        {
             "id": "210",
             "lib_name": "MIDIUSB",
             "lib_url": "https:\/\/github.com\/arduino-libraries\/MIDIUSB.git",
@@ -190,66 +142,6 @@
             "lib_lastcheck": "1682958763",
             "lib_minprogspace": "4564",
             "lib_mindynspace": "213",
-            "object": "lib"
-        },
-        {
-            "id": "216",
-            "lib_name": "NTPClient",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/NTPClient.git",
-            "lib_version": "3.2.1",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959559",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
-            "object": "lib"
-        },
-        {
-            "id": "226",
-            "lib_name": "ArduinoHttpClient",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/ArduinoHttpClient.git",
-            "lib_version": "0.4.0",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959567",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
-            "object": "lib"
-        },
-        {
-            "id": "281",
-            "lib_name": "ArduinoECCX08",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/ArduinoECCX08.git",
-            "lib_version": "1.3.7",
-            "lib_depends": "",
-            "lib_architectures": ",samd,megaavr,mbed,mbed_nano,mbed_portenta,esp32,",
-            "lib_lastcheck": "1682959573",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
-            "object": "lib"
-        },
-        {
-            "id": "301",
-            "lib_name": "WiFiNINA",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/WiFiNINA.git",
-            "lib_version": "1.8.9",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959589",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
-            "object": "lib"
-        },
-        {
-            "id": "313",
-            "lib_name": "EduIntro",
-            "lib_url": "https:\/\/github.com\/arduino\/EduIntro.git",
-            "lib_version": "0.0.9",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959624",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
             "object": "lib"
         },
         {
@@ -265,30 +157,6 @@
             "object": "lib"
         },
         {
-            "id": "337",
-            "lib_name": "ArduinoBearSSL",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/ArduinoBearSSL.git",
-            "lib_version": "1.7.3",
-            "lib_depends": "ArduinoECCX08",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959655",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
-            "object": "lib"
-        },
-        {
-            "id": "339",
-            "lib_name": "ArduinoDMX",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/ArduinoDMX.git",
-            "lib_version": "1.0.1",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959657",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
-            "object": "lib"
-        },
-        {
             "id": "348",
             "lib_name": "ArduinoModbus",
             "lib_url": "https:\/\/github.com\/arduino-libraries\/ArduinoModbus.git",
@@ -298,18 +166,6 @@
             "lib_lastcheck": "1682958911",
             "lib_minprogspace": "485",
             "lib_mindynspace": "28672",
-            "object": "lib"
-        },
-        {
-            "id": "382",
-            "lib_name": "ArduinoMqttClient",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/ArduinoMqttClient.git",
-            "lib_version": "0.1.7",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959662",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
             "object": "lib"
         },
         {
@@ -349,42 +205,6 @@
             "object": "lib"
         },
         {
-            "id": "484",
-            "lib_name": "Arduino Uno WiFi Dev Ed Library",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/UnoWiFi-Developer-Edition-Lib.git",
-            "lib_version": "0.0.3",
-            "lib_depends": "",
-            "lib_architectures": ",avr,",
-            "lib_lastcheck": "1682959674",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
-            "object": "lib"
-        },
-        {
-            "id": "493",
-            "lib_name": "WiFi Link",
-            "lib_url": "https:\/\/github.com\/arduino-org\/arduino-library-wifilink.git",
-            "lib_version": "1.0.1",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959691",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
-            "object": "lib"
-        },
-        {
-            "id": "517",
-            "lib_name": "Temboo",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/Temboo.git",
-            "lib_version": "1.2.1",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959699",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
-            "object": "lib"
-        },
-        {
             "id": "529",
             "lib_name": "Adafruit ADS1X15",
             "lib_url": "https:\/\/github.com\/adafruit\/Adafruit_ADS1X15.git",
@@ -418,18 +238,6 @@
             "lib_lastcheck": "1682958991",
             "lib_minprogspace": "9758",
             "lib_mindynspace": "509",
-            "object": "lib"
-        },
-        {
-            "id": "546",
-            "lib_name": "Adafruit BLEFirmata",
-            "lib_url": "https:\/\/github.com\/adafruit\/Adafruit_BLEFirmata.git",
-            "lib_version": "1.1.2",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959702",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
             "object": "lib"
         },
         {
@@ -769,18 +577,6 @@
             "object": "lib"
         },
         {
-            "id": "864",
-            "lib_name": "Adafruit MiniMLX90614",
-            "lib_url": "https:\/\/github.com\/adafruit\/Adafruit_MiniMLX90614.git",
-            "lib_version": "1.0.0",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959738",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
-            "object": "lib"
-        },
-        {
             "id": "874",
             "lib_name": "Adafruit MLX90614 Library",
             "lib_url": "https:\/\/github.com\/adafruit\/Adafruit-MLX90614-Library.git",
@@ -814,18 +610,6 @@
             "lib_lastcheck": "1682959304",
             "lib_minprogspace": "10684",
             "lib_mindynspace": "696",
-            "object": "lib"
-        },
-        {
-            "id": "890",
-            "lib_name": "Adafruit Motor Shield library",
-            "lib_url": "https:\/\/github.com\/adafruit\/Adafruit-Motor-Shield-library.git",
-            "lib_version": "1.0.1",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959742",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
             "object": "lib"
         },
         {
@@ -1018,18 +802,6 @@
             "lib_lastcheck": "1682959428",
             "lib_minprogspace": "8984",
             "lib_mindynspace": "585",
-            "object": "lib"
-        },
-        {
-            "id": "1070",
-            "lib_name": "Adafruit SoftServo",
-            "lib_url": "https:\/\/github.com\/adafruit\/Adafruit_SoftServo.git",
-            "lib_version": "1.0.2",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959767",
-            "lib_minprogspace": "9999999",
-            "lib_mindynspace": "9999999",
             "object": "lib"
         },
         {
