@@ -78,7 +78,8 @@ function InstallLibrary($libraryname, $version , $blank = true){
     $installed[] = $libraryname;
     $libdata = DB::queryFirstRow("Select * from libs WHERE lib_name LIKE %s AND lib_version LIKE %s",$libraryname,$version);
     //print_r($libdata);
-    $callstring = "cd " . $Settings['arduino_library'] . " && git clone -b '$version' " . $libdata['lib_url'] . " 2>/dev/null";
+    $callstring = "cd " . $Settings['arduino_library'] . " && git clone -b '$version' " . str_replace('https://github.com/','git@github.com:',$libdata['lib_url']) . " 2>/dev/null";
+echo $callstring . PHP_EOL;
     if(strlen($libdata['lib_depends'])> 0){
             $libs = explode(",",$libdata['lib_depends']);
             for($x=0; $x< count($libs);$x++){
