@@ -4,7 +4,7 @@ include_once( __DIR__ . "/init.php");
 
 
 
-$sql = 'Select * from libs where lib_lastcheck > 0 AND lib_mindynspace < 99999999';
+$sql = 'Select * from libs where lib_lastcheck > 0 AND lib_mindynspace < 9999998';
 
 echo $sql . PHP_EOL;
 $allData = DB::query($sql);
