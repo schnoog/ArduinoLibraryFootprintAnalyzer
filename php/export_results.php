@@ -17,8 +17,8 @@ for($x=0;$x < count($allData);$x++){
     $allData[$x]['object'] = "lib";
     
     $url = $allData[$x]['lib_url'];
-    $bn = basename($url);
-    $data = "<a href='$url' target='_blank' title='$url'>$bn</a>";
+    //$bn = basename($url);
+    list($d1,$d2,$d3,$bn) = explode("/",$url,4);
     $allData[$x]['repolabel'] = $bn;
     $offProg = $Settings['platformdata'][$allData[$x]['lib_platform']]['platform_emptyprog'] ;
     $offDyn = $Settings['platformdata'][$allData[$x]['lib_platform']]['platform_emptydyn'] ;
