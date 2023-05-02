@@ -4,6 +4,7 @@
 $dir = __DIR__;
 
 $Settings['projectdir'] =  dirname($dir)."/";
+$Settings['phpdir'] = $Settings['projectdir'] . "php/";
 $Settings['configdir'] = $Settings['projectdir'] . "config/";
 include_once($Settings['configdir'] . "ProjectConfig.php");
 
