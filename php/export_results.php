@@ -16,6 +16,10 @@ for($x=0;$x < count($allData);$x++){
 //echo $x . PHP_EOL;
     $allData[$x]['object'] = "lib";
     $allData[$x]['lib_platform'] = $Settings['platforms'][$allData[$x]['lib_platform']];
+    $url = $allData[$x]['lib_url'];
+    $bn = basename($url);
+    $data = "<a href='$url' target='_blank' title='$url'>$bn</a>";
+    $allData[$x]['repolabel'] = $bn;
 
 }
 $allDataOut['data'] =$allData;
