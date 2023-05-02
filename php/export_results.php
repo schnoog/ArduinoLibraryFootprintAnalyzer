@@ -15,7 +15,7 @@ $allData = DB::query($sql);
 for($x=0;$x < count($allData);$x++){
 //echo $x . PHP_EOL;
     $allData[$x]['object'] = "lib";
-
+    $allData[$x]['lib_platform'] = $Settings['platforms'][$allData[$x]['lib_platform']];
 
 }
 $allDataOut['data'] =$allData;
