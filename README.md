@@ -47,6 +47,8 @@ After reviewing the results I decided that the differences are so huge, that I`l
 - .... maybe more... but that's the starting point.
 
 #### Current gaps
-- Installing of depends 
 - Different build platforms
 
+## The data
+I'll run the script for a lot of libraries on different platforms (for libraries which doesn't compile under avr:micro)
+[The results, as search and sortable table can be found here](https://schnoog.github.io/ArduinoLibraryFootprints/index.html)
