@@ -3,6 +3,11 @@
 
 include_once( __DIR__ . "/init.php");
 
+
+$tmp = fGetLibraryDetails('https://github.com/arduino-libraries/Bridge.git');
+
+print_r($tmp);
+/*
 $sql = "SELECT * from libs WHERE lib_platform = 1 AND (lib_mindynspace <= 149 OR lib_minprogspace <= 3462) ";
 
 $res = DB::query($sql);
@@ -34,3 +39,5 @@ for($x = 0; $x < count($res);$x++){
 //        exit;
 
 }
+
+*/

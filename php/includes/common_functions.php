@@ -181,3 +181,51 @@ function fIsLibraryChecked($liburl){
     if($res) return true;
     return false;
 }
+
+function fGetLibraryDetails($liburl){
+    global $Settings;
+//ClearAllLibraries();
+//$callstring = "cd " . $Settings['arduino_library'] . " && git clone  " . str_replace('https://github.com/','git@github.com:',$liburl) . " 2>/dev/null";
+//$tmp = `$callstring`;
+$callstring = "find " . $Settings['arduino_library'] . " -name 'library.properties'"  ;  
+//echo $callstring . PHP_EOL;
+$pf = str_replace("\n","",`$callstring`);
+$out = array();
+
+$taglist="version,sentence,paragraph,architectures,depends,name";
+$tags = explode(",",$taglist);
+
+if (strlen($pf)>0 ){
+    $pf = file_get_contents($pf);
+    $lines = explode("\n",$pf);
+    $pf = array();
+    for($x = 0; $x < count($lines);$x++){
+        $line = $lines[$x];
+
+        for($y=0;$y < count($tags);$y++){
+            $tag = $tags[$y];
+        if(strlen($line)>strlen($tag ."=")) if(substr($line,0,strlen($tag . "=")) == $tag . "=") $pf[$tag] = explode("=",$line,2)[1];
+
+        }
+
+        print_r(substr($line,0,strlen("version=")));
+        echo PHP_EOL;
+    }
+
+
+}
+    return ["->",$pf,"<-"];
+}
+
+
+/*
+version=1.7.0
+author=Arduino
+maintainer=Arduino <info@arduino.cc>
+sentence=Enables communication between the Linux processor and the microcontroller. For Arduino Yún, Yún Shield and TRE only.
+paragraph=The Bridge library features: access to the shared storage, run and manage Linux processes, open a remote console, access to the Linux file system, including the SD card, establish HTTP clients or servers.
+category=Communication
+url=http://www.arduino.cc/en/Reference/YunBridgeLibrary
+architectures=*
+
+ */
