@@ -109,7 +109,10 @@ function FindLibraryExamples($library_url){
 
 
 function TestLibraryByID($id, $platform = 1){
+    global $Settings;
     DB::query("Delete from testresults WHERE lib_id = %i", $id);
+    $offProg = $Settings['platformdata'][$platform]['platform_emptyprog'] ;
+    $offDyn = $Settings['platformdata'][$platform]['platform_emptydyn'] ;
     global $Settings;
     $libdata = DB::queryFirstRow("Select * from libs WHERE id LIKE %i",$id);
     InstallNewestLibrary($libdata['lib_name'],true);
@@ -134,9 +137,15 @@ function TestLibraryByID($id, $platform = 1){
         echo $out;
         $sketch = basename($example);
         $valid = 1;
+
+        if($prog_space <= $offProg) $prog_space = 9999999;
+        if($dyn_space <= $offDyn) $dyn_space = 9999999;
         if($prog_space == 9999999){
             $valid = 0;
         }
+
+
+
         if($valid == 1) $completed = true;
         if($prog_space < $minPS) $minPS = $prog_space;
         if($dyn_space < $minDS) $minDS = $dyn_space;
