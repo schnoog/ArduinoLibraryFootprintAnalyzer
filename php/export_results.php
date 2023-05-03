@@ -25,7 +25,8 @@ for($x=0;$x < count($allData);$x++){
     $allData[$x]['loadProg'] = $allData[$x]['lib_minprogspace'] - $offProg;
 
 //    echo "LoadProg :" . $allData[$x]['lib_minprogspace']  . " bytes from lib - " . $offProg . " bytes from base" . PHP_EOL;
-
+    $allData[$x]['lib_mindynspace'] = $allData[$x]['lib_mindynspace'] * 1;
+    $allData[$x]['lib_minprogspace'] = $allData[$x]['lib_minprogspace'] * 1;
     $allData[$x]['loadDyn'] = $allData[$x]['lib_mindynspace'] - $offDyn;
     $allData[$x]['lib_platform'] = $Settings['platforms'][$allData[$x]['lib_platform']];
 
