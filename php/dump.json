@@ -193,38 +193,6 @@
             "loadDyn": 64
         },
         {
-            "id": "325",
-            "lib_name": "ArduinoRS485",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/ArduinoRS485.git",
-            "lib_version": "1.0.5",
-            "lib_depends": "",
-            "lib_architectures": ",samd,mbed_portenta,mbed_opta,",
-            "lib_lastcheck": "1682958865",
-            "lib_minprogspace": 485,
-            "lib_mindynspace": 28672,
-            "lib_platform": "arduino:avr:micro",
-            "object": "lib",
-            "repolabel": "arduino-libraries\/ArduinoRS485.git",
-            "loadProg": -2977,
-            "loadDyn": 28523
-        },
-        {
-            "id": "348",
-            "lib_name": "ArduinoModbus",
-            "lib_url": "https:\/\/github.com\/arduino-libraries\/ArduinoModbus.git",
-            "lib_version": "1.0.8",
-            "lib_depends": "ArduinoRS485",
-            "lib_architectures": ",megaavr,samd,mbed_nano,mbed_portenta,mbed_opta,",
-            "lib_lastcheck": "1682958911",
-            "lib_minprogspace": 485,
-            "lib_mindynspace": 28672,
-            "lib_platform": "arduino:avr:micro",
-            "object": "lib",
-            "repolabel": "arduino-libraries\/ArduinoModbus.git",
-            "loadProg": -2977,
-            "loadDyn": 28523
-        },
-        {
             "id": "407",
             "lib_name": "Arduino_JSON",
             "lib_url": "https:\/\/github.com\/arduino-libraries\/Arduino_JSON.git",
@@ -488,13 +456,13 @@
             "lib_depends": "",
             "lib_architectures": ",*,",
             "lib_lastcheck": "1682959091",
-            "lib_minprogspace": 3462,
-            "lib_mindynspace": 149,
+            "lib_minprogspace": 4470,
+            "lib_mindynspace": 324,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "adafruit\/Adafruit-Fingerprint-Sensor-Library.git",
-            "loadProg": 0,
-            "loadDyn": 0
+            "loadProg": 1008,
+            "loadDyn": 175
         },
         {
             "id": "656",
@@ -551,14 +519,14 @@
             "lib_version": "1.7.2",
             "lib_depends": "SD",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1682959148",
-            "lib_minprogspace": 3462,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135500",
+            "lib_minprogspace": 24894,
+            "lib_mindynspace": 2008,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "adafruit\/Adafruit_GPS.git",
-            "loadProg": 0,
-            "loadDyn": 0
+            "loadProg": 21432,
+            "loadDyn": 1859
         },
         {
             "id": "711",
@@ -1975,14 +1943,14 @@
             "lib_version": "1.0.0",
             "lib_depends": "",
             "lib_architectures": ",avr,",
-            "lib_lastcheck": "1682968394",
-            "lib_minprogspace": 3164,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 3650,
+            "lib_mindynspace": 155,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "Chris--A\/SmallSetup.git",
-            "loadProg": -298,
-            "loadDyn": 0
+            "loadProg": 188,
+            "loadDyn": 6
         },
         {
             "id": "2321",
@@ -2183,14 +2151,14 @@
             "lib_version": "1.2.9",
             "lib_depends": "",
             "lib_architectures": ",avr,",
-            "lib_lastcheck": "1682968601",
-            "lib_minprogspace": 3808,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 4900,
+            "lib_mindynspace": 174,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "NicoHood\/PinChangeInterrupt.git",
-            "loadProg": 346,
-            "loadDyn": 0
+            "loadProg": 1438,
+            "loadDyn": 25
         },
         {
             "id": "2519",
@@ -2359,14 +2327,14 @@
             "lib_version": "1.0.2",
             "lib_depends": "",
             "lib_architectures": ",avr,",
-            "lib_lastcheck": "1682968719",
-            "lib_minprogspace": 3972,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 8582,
+            "lib_mindynspace": 1021,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "printoo\/printoo_library.git",
-            "loadProg": 510,
-            "loadDyn": 0
+            "loadProg": 5120,
+            "loadDyn": 872
         },
         {
             "id": "2576",
@@ -2391,14 +2359,14 @@
             "lib_version": "1.2.0",
             "lib_depends": "",
             "lib_architectures": ",avr,esp8266,",
-            "lib_lastcheck": "1682968725",
-            "lib_minprogspace": 4222,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 6232,
+            "lib_mindynspace": 209,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "rlogiacco\/MicroDebug.git",
-            "loadProg": 760,
-            "loadDyn": 0
+            "loadProg": 2770,
+            "loadDyn": 60
         },
         {
             "id": "2588",
@@ -2823,14 +2791,14 @@
             "lib_version": "1.3.0",
             "lib_depends": "",
             "lib_architectures": ",avr,",
-            "lib_lastcheck": "1682968982",
-            "lib_minprogspace": 3602,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 4330,
+            "lib_mindynspace": 165,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "somsinchai\/IBot.git",
-            "loadProg": 140,
-            "loadDyn": 0
+            "loadProg": 868,
+            "loadDyn": 16
         },
         {
             "id": "3389",
@@ -3143,14 +3111,14 @@
             "lib_version": "0.8.2",
             "lib_depends": "",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1682969146",
-            "lib_minprogspace": 4024,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 11378,
+            "lib_mindynspace": 535,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "orgua\/iLib.git",
-            "loadProg": 562,
-            "loadDyn": 0
+            "loadProg": 7916,
+            "loadDyn": 386
         },
         {
             "id": "3680",
@@ -3703,14 +3671,14 @@
             "lib_version": "2.4.2",
             "lib_depends": "",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1682969340",
-            "lib_minprogspace": 3966,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 6916,
+            "lib_mindynspace": 631,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "inovatic-ict\/emoro-2560-library.git",
-            "loadProg": 504,
-            "loadDyn": 0
+            "loadProg": 3454,
+            "loadDyn": 482
         },
         {
             "id": "4044",
@@ -4007,14 +3975,14 @@
             "lib_version": "1.3.2",
             "lib_depends": "",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1682969571",
-            "lib_minprogspace": 3462,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 16622,
+            "lib_mindynspace": 646,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "duinoWitchery\/hd44780.git",
-            "loadProg": 0,
-            "loadDyn": 0
+            "loadProg": 13160,
+            "loadDyn": 497
         },
         {
             "id": "4512",
@@ -4047,22 +4015,6 @@
             "repolabel": "oxullo\/Arduino-TCM2.git",
             "loadProg": 1380,
             "loadDyn": 79
-        },
-        {
-            "id": "4534",
-            "lib_name": "FastGPIO",
-            "lib_url": "https:\/\/github.com\/pololu\/fastgpio-arduino.git",
-            "lib_version": "2.1.0",
-            "lib_depends": "",
-            "lib_architectures": ",avr,",
-            "lib_lastcheck": "1682969610",
-            "lib_minprogspace": 3666,
-            "lib_mindynspace": 149,
-            "lib_platform": "arduino:avr:micro",
-            "object": "lib",
-            "repolabel": "pololu\/fastgpio-arduino.git",
-            "loadProg": 204,
-            "loadDyn": 0
         },
         {
             "id": "4557",
@@ -4225,22 +4177,6 @@
             "loadDyn": 68
         },
         {
-            "id": "4576",
-            "lib_name": "USBPause",
-            "lib_url": "https:\/\/github.com\/pololu\/usb-pause-arduino.git",
-            "lib_version": "2.0.0",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1682969641",
-            "lib_minprogspace": 3502,
-            "lib_mindynspace": 149,
-            "lib_platform": "arduino:avr:micro",
-            "object": "lib",
-            "repolabel": "pololu\/usb-pause-arduino.git",
-            "loadProg": 40,
-            "loadDyn": 0
-        },
-        {
             "id": "4577",
             "lib_name": "Pushbutton",
             "lib_url": "https:\/\/github.com\/pololu\/pushbutton-arduino.git",
@@ -4375,14 +4311,14 @@
             "lib_version": "1.0.1",
             "lib_depends": "",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1682969703",
-            "lib_minprogspace": 3476,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 7118,
+            "lib_mindynspace": 214,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "greiman\/DigitalIO.git",
-            "loadProg": 14,
-            "loadDyn": 0
+            "loadProg": 3656,
+            "loadDyn": 65
         },
         {
             "id": "4702",
@@ -4791,14 +4727,14 @@
             "lib_version": "2.6.4",
             "lib_depends": "",
             "lib_architectures": ",avr,esp8266,esp32,stm32,",
-            "lib_lastcheck": "1682969884",
-            "lib_minprogspace": 4192,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 6392,
+            "lib_mindynspace": 429,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "sui77\/rc-switch.git",
-            "loadProg": 730,
-            "loadDyn": 0
+            "loadProg": 2930,
+            "loadDyn": 280
         },
         {
             "id": "4959",
@@ -4855,14 +4791,14 @@
             "lib_version": "1.0.7",
             "lib_depends": "",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1682970424",
-            "lib_minprogspace": 3972,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 8812,
+            "lib_mindynspace": 567,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "maly\/edushield.git",
-            "loadProg": 510,
-            "loadDyn": 0
+            "loadProg": 5350,
+            "loadDyn": 418
         },
         {
             "id": "5054",
@@ -6959,22 +6895,6 @@
             "repolabel": "YuriiSalimov\/MAX6675_Thermocouple.git",
             "loadProg": 3616,
             "loadDyn": 68
-        },
-        {
-            "id": "8221",
-            "lib_name": "arduino-display-lcdkeypad",
-            "lib_url": "https:\/\/github.com\/dniklaus\/arduino-display-lcdkeypad.git",
-            "lib_version": "5.0.2",
-            "lib_depends": "spin-timer,LiquidCrystal",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1683016013",
-            "lib_minprogspace": 0,
-            "lib_mindynspace": 0,
-            "lib_platform": "arduino:avr:micro",
-            "object": "lib",
-            "repolabel": "dniklaus\/arduino-display-lcdkeypad.git",
-            "loadProg": -3462,
-            "loadDyn": -149
         },
         {
             "id": "8263",
@@ -9537,22 +9457,6 @@
             "loadDyn": 19
         },
         {
-            "id": "11552",
-            "lib_name": "ExampleLibrary",
-            "lib_url": "https:\/\/github.com\/GordonRudman\/ExampleArduinoLibrary.git",
-            "lib_version": "0.0.2",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1683017950",
-            "lib_minprogspace": 3462,
-            "lib_mindynspace": 149,
-            "lib_platform": "arduino:avr:micro",
-            "object": "lib",
-            "repolabel": "GordonRudman\/ExampleArduinoLibrary.git",
-            "loadProg": 0,
-            "loadDyn": 0
-        },
-        {
             "id": "11564",
             "lib_name": "TalkingLED",
             "lib_url": "https:\/\/github.com\/fabriziop\/TalkingLED.git",
@@ -10727,14 +10631,14 @@
             "lib_version": "1.0.1",
             "lib_depends": "",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1683018926",
-            "lib_minprogspace": 3502,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 4200,
+            "lib_mindynspace": 178,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "boxtec\/Witty.git",
-            "loadProg": 40,
-            "loadDyn": 0
+            "loadProg": 738,
+            "loadDyn": 29
         },
         {
             "id": "13709",
@@ -11143,14 +11047,14 @@
             "lib_version": "1.1.3",
             "lib_depends": "Adafruit BME280 Library,DHT sensor library,IRremote,OneWire",
             "lib_architectures": ",avr,",
-            "lib_lastcheck": "1683019424",
-            "lib_minprogspace": 3602,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 15702,
+            "lib_mindynspace": 662,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "BrandeisMakerLab\/Arduino_Education.git",
-            "loadProg": 140,
-            "loadDyn": 0
+            "loadProg": 12240,
+            "loadDyn": 513
         },
         {
             "id": "14304",
@@ -12311,14 +12215,14 @@
             "lib_version": "0.2.1",
             "lib_depends": "",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1683020560",
-            "lib_minprogspace": 3506,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 8936,
+            "lib_mindynspace": 1339,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "fabriziop\/aTalkArduino.git",
-            "loadProg": 44,
-            "loadDyn": 0
+            "loadProg": 5474,
+            "loadDyn": 1190
         },
         {
             "id": "15849",
@@ -13511,14 +13415,14 @@
             "lib_version": "1.0.1",
             "lib_depends": "",
             "lib_architectures": ",avr,",
-            "lib_lastcheck": "1683021758",
-            "lib_minprogspace": 3462,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 7716,
+            "lib_mindynspace": 231,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "BrinoOficial\/BibliotecaBrino.git",
-            "loadProg": 0,
-            "loadDyn": 0
+            "loadProg": 4254,
+            "loadDyn": 82
         },
         {
             "id": "17325",
@@ -14127,22 +14031,6 @@
             "repolabel": "hideakitai\/ArxSmartPtr.git",
             "loadProg": 2930,
             "loadDyn": 232
-        },
-        {
-            "id": "18025",
-            "lib_name": "MoonPhase",
-            "lib_url": "https:\/\/github.com\/CelliesProjects\/moonPhase-esp32.git",
-            "lib_version": "1.0.3",
-            "lib_depends": "",
-            "lib_architectures": ",esp32,",
-            "lib_lastcheck": "1683022192",
-            "lib_minprogspace": 32,
-            "lib_mindynspace": 92,
-            "lib_platform": "arduino:avr:micro",
-            "object": "lib",
-            "repolabel": "CelliesProjects\/moonPhase-esp32.git",
-            "loadProg": -3430,
-            "loadDyn": -57
         },
         {
             "id": "18060",
@@ -15055,22 +14943,6 @@
             "repolabel": "RobTillaart\/I2C_ASDX.git",
             "loadProg": 4498,
             "loadDyn": 340
-        },
-        {
-            "id": "19133",
-            "lib_name": "RBE1001Lib",
-            "lib_url": "https:\/\/github.com\/WPIRoboticsEngineering\/RBE1001Lib.git",
-            "lib_version": "0.9.4",
-            "lib_depends": "",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1683022805",
-            "lib_minprogspace": 3958,
-            "lib_mindynspace": 149,
-            "lib_platform": "arduino:avr:micro",
-            "object": "lib",
-            "repolabel": "WPIRoboticsEngineering\/RBE1001Lib.git",
-            "loadProg": 496,
-            "loadDyn": 0
         },
         {
             "id": "19160",
@@ -16305,22 +16177,6 @@
             "loadDyn": 138
         },
         {
-            "id": "20706",
-            "lib_name": "Strawbees Quirkbot",
-            "lib_url": "https:\/\/github.com\/Quirkbot\/QuirkbotArduinoLibrary.git",
-            "lib_version": "2.9.0",
-            "lib_depends": "",
-            "lib_architectures": ",avr,",
-            "lib_lastcheck": "1683023684",
-            "lib_minprogspace": 3464,
-            "lib_mindynspace": 149,
-            "lib_platform": "arduino:avr:micro",
-            "object": "lib",
-            "repolabel": "Quirkbot\/QuirkbotArduinoLibrary.git",
-            "loadProg": 2,
-            "loadDyn": 0
-        },
-        {
             "id": "20784",
             "lib_name": "Adafruit BNO08x",
             "lib_url": "https:\/\/github.com\/adafruit\/Adafruit_BNO08x.git",
@@ -16983,14 +16839,14 @@
             "lib_version": "20.22.0",
             "lib_depends": "",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1683024600",
-            "lib_minprogspace": 3462,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 4342,
+            "lib_mindynspace": 151,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "ETLCPP\/etl-arduino.git",
-            "loadProg": 0,
-            "loadDyn": 0
+            "loadProg": 880,
+            "loadDyn": 2
         },
         {
             "id": "22098",
@@ -17431,14 +17287,14 @@
             "lib_version": "1.0.0",
             "lib_depends": "",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1683024963",
-            "lib_minprogspace": 3900,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 8876,
+            "lib_mindynspace": 778,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "LeemanGeophysicalLLC\/LGLearningShieldLibrary.git",
-            "loadProg": 438,
-            "loadDyn": 0
+            "loadProg": 5414,
+            "loadDyn": 629
         },
         {
             "id": "22918",
@@ -18423,14 +18279,14 @@
             "lib_version": "1.0.0",
             "lib_depends": "Arduino_Pro_Tutorials,Arduino_PortentaBreakout,GT5X",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1683025780",
-            "lib_minprogspace": 3462,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 8232,
+            "lib_mindynspace": 344,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "hpssjellis\/portenta-pro-community-solutions.git",
-            "loadProg": 0,
-            "loadDyn": 0
+            "loadProg": 4770,
+            "loadDyn": 195
         },
         {
             "id": "24003",
@@ -18615,14 +18471,14 @@
             "lib_version": "1.1.3",
             "lib_depends": "RadioLib,Adafruit Unified Sensor,Adafruit BusIO",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1683025955",
-            "lib_minprogspace": 3600,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 7784,
+            "lib_mindynspace": 565,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "GLEE2023\/GLEE2023.git",
-            "loadProg": 138,
-            "loadDyn": 0
+            "loadProg": 4322,
+            "loadDyn": 416
         },
         {
             "id": "24160",
@@ -18975,22 +18831,6 @@
             "repolabel": "careyi3\/MovingAverage.git",
             "loadProg": 3334,
             "loadDyn": 42
-        },
-        {
-            "id": "24509",
-            "lib_name": "TinyMegaI2C",
-            "lib_url": "https:\/\/github.com\/dattasaurabh82\/TinyMegaI2C.git",
-            "lib_version": "0.0.4",
-            "lib_depends": "",
-            "lib_architectures": ",megaavr,",
-            "lib_lastcheck": "1683026283",
-            "lib_minprogspace": 2,
-            "lib_mindynspace": 92,
-            "lib_platform": "arduino:avr:micro",
-            "object": "lib",
-            "repolabel": "dattasaurabh82\/TinyMegaI2C.git",
-            "loadProg": -3460,
-            "loadDyn": -57
         },
         {
             "id": "24516",
@@ -19647,22 +19487,6 @@
             "repolabel": "smartmeio\/microcontroller-id-library.git",
             "loadProg": 692,
             "loadDyn": 78
-        },
-        {
-            "id": "25515",
-            "lib_name": "Pixie_Chroma",
-            "lib_url": "https:\/\/github.com\/connornishijima\/Pixie_Chroma.git",
-            "lib_version": "1.2.0",
-            "lib_depends": "FastLED",
-            "lib_architectures": ",*,",
-            "lib_lastcheck": "1683026938",
-            "lib_minprogspace": 3462,
-            "lib_mindynspace": 149,
-            "lib_platform": "arduino:avr:micro",
-            "object": "lib",
-            "repolabel": "connornishijima\/Pixie_Chroma.git",
-            "loadProg": 0,
-            "loadDyn": 0
         },
         {
             "id": "25615",
@@ -20743,14 +20567,14 @@
             "lib_version": "1.0.3",
             "lib_depends": "Adafruit BusIO,Adafruit Motor Shield V2 Library,LiquidCrystal I2C,DHT sensor library,Adafruit NeoPixel,Ai COCOCAM",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1683028047",
-            "lib_minprogspace": 3502,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 12588,
+            "lib_mindynspace": 751,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "ekkai\/kocoafabLib.git",
-            "loadProg": 40,
-            "loadDyn": 0
+            "loadProg": 9126,
+            "loadDyn": 602
         },
         {
             "id": "26843",
@@ -21863,14 +21687,14 @@
             "lib_version": "0.0.3",
             "lib_depends": "",
             "lib_architectures": ",*,",
-            "lib_lastcheck": "1683029246",
-            "lib_minprogspace": 4026,
-            "lib_mindynspace": 149,
+            "lib_lastcheck": "1683135511",
+            "lib_minprogspace": 14770,
+            "lib_mindynspace": 460,
             "lib_platform": "arduino:avr:micro",
             "object": "lib",
             "repolabel": "WinsonAPP\/WinsonLibrary.git",
-            "loadProg": 564,
-            "loadDyn": 0
+            "loadProg": 11308,
+            "loadDyn": 311
         },
         {
             "id": "27759",

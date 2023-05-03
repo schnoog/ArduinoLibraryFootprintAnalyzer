@@ -3,39 +3,34 @@
 
 include_once( __DIR__ . "/init.php");
 
-//print_r($Settings);
-//exit;
+$sql = "SELECT * from libs WHERE lib_platform = 1 AND (lib_mindynspace <= 149 OR lib_minprogspace <= 3462) ";
 
-//CreateSketch();
-//$prog_space = 0;
-//$dyn_space = 0;
+$res = DB::query($sql);
+for($x = 0; $x < count($res);$x++){
+        $entry = $res[$x];
+        $lib = $entry['id'];
+        $minProg = 0;
+        $minDyn = 0;
+        $tmp = DB::queryFirstRow("Select * from testresults WHERE lib_id = %i ORDER by program_space DESC",$lib);
+        if($tmp){
+                $minDyn= $tmp['dynamic_space'];
+                $minProg = $tmp['program_space'];
+                $platform = $tmp['platform_id'];
+        }
 
-//CompileSketch($prog_space,$dyn_space);
+        if(($minDyn * $minProg) > 0 ){
+                $time = time();
 
+        }else{
+                $minProg = 999999999;
+                $minDyn = 999999999;                
+                $time = 0;
+                $platform = 0;
+        }
 
-//ClearAllLibraries();
+        $sql = "UPDATE libs SET lib_minprogspace = %i , lib_mindynspace = %i , lib_platform = %i , lib_lastcheck = %i WHERE id = %i";
+        DB::query($sql,$minProg,$minDyn,$platform,$time,$lib);
+        echo " $sql,$minProg,$minDyn,$platform,$time,$lib ";
+//        exit;
 
-
-//InstallLibrary("Adafruit SHT31 Library","1.1.8");
-//InstallLibrary("SIKTEC_AVR_Controller","1.0.6");
-//TestLibraryByID(18428);
-//TestNewestLibraryByName("Better Joystick");
-
-
-
-
-exit;
-
-$sql = "SELECT DISTINCT lib_name, lib_url, lib_architectures FROM libs WHERE  	lib_lastcheck = 0 AND ( lib_architectures LIKE '%,avr,%' OR lib_architectures LIKE ',*,' ) LIMIT 0,5900    ";
-$all =  DB::query($sql) ;
-//print_r($all);
-for($x = 0; $x < count($all);$x++){
-        $libname = $all[$x]['lib_name'];
-        echo "Testing Library $libname" . PHP_EOL;
-        TestNewestLibraryByName($libname);
 }
-
-
-//$sql = "SELECT DISTINCT lib_name, lib_url, lib_architectures FROM libs WHERE lib_name LIKE %ss AND ( lib_architectures LIKE 'avr' OR lib_architectures LIKE '*' )";
-
-//print_r(  DB::query($sql,"23017")   );
