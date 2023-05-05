@@ -199,6 +199,11 @@ if (strlen($pf)>0 ){
     $pf = file_get_contents($pf);
     $lines = explode("\n",$pf);
     $pf = array();
+
+        for($y=0;$y < count($tags);$y++){
+            $pf[$tag] = "";
+	}
+
     for($x = 0; $x < count($lines);$x++){
         $line = $lines[$x];
 
@@ -214,7 +219,7 @@ if (strlen($pf)>0 ){
 
 
 }
-    return ["->",$pf,"<-"];
+    return $pf;
 }
 
 
