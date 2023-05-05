@@ -1,5 +1,6 @@
 <?php
 
+use Composer\InstalledVersions;
 
 $installed = array();
 
@@ -89,6 +90,35 @@ echo $callstring . PHP_EOL;
     $tmp = `$callstring`;
 }
 
+function InstallLibraryByID($libraryID , $blank = true){
+    global $Settings;
+    global $installed;
+    //echo "Already installed :::::::::::::" . PHP_EOL;
+    //print_r($installed);
+    if($blank) {
+        ClearAllLibraries();
+        $installed = array();
+    }
+    $libdata = DB::queryFirstRow("Select * from libs WHERE id = %i",$libraryID);
+    $version = $libdata['lib_version'];
+    $libraryname = $libdata['lib_name'];
+
+    if(in_array($libraryname,$installed)) return true;
+    echo "Installing $libraryname " . PHP_EOL;
+    $installed[] = $libraryname;
+    
+    //print_r($libdata);
+    //$callstring = "cd " . $Settings['arduino_library'] . " && git clone -b '$version' " . str_replace('https://github.com/','git@github.com:',$libdata['lib_url']) . " 2>/dev/null";
+//echo $callstring . PHP_EOL;
+    GitCheckoutTag($libdata['lib_url'],$version);
+    if(strlen($libdata['lib_depends'])> 0){
+            $libs = explode(",",$libdata['lib_depends']);
+            for($x=0; $x< count($libs);$x++){
+                if(!in_array($libs[$x],$installed))                 InstallNewestLibrary($libs[$x],false);
+            }
+    }
+    //$tmp = `$callstring`;
+}
 
 function InstallNewestLibrary($libraryname,$IsNewInstall = true){
     $libdata = DB::queryFirstRow("Select * from libs WHERE lib_name LIKE %s ORDER by lib_version DESC",$libraryname);
@@ -115,8 +145,9 @@ function TestLibraryByID($id, $platform = 1){
     $offDyn = $Settings['platformdata'][$platform]['platform_emptydyn'] ;
     global $Settings;
     $libdata = DB::queryFirstRow("Select * from libs WHERE id LIKE %i",$id);
-    InstallNewestLibrary($libdata['lib_name'],true);
     if(!is_array($libdata)) return false;
+  //  InstallNewestLibrary($libdata['lib_name'],true);
+    InstallLibraryByID($id);
     $examples = FindLibraryExamples($libdata['lib_url']);
     $completed = false;
     $minPS = 999999999;
@@ -182,11 +213,11 @@ function fIsLibraryChecked($liburl){
     return false;
 }
 
-function fGetLibraryDetails($liburl){
+function fAddNewLibrary($liburl){
     global $Settings;
-//ClearAllLibraries();
-//$callstring = "cd " . $Settings['arduino_library'] . " && git clone  " . str_replace('https://github.com/','git@github.com:',$liburl) . " 2>/dev/null";
-//$tmp = `$callstring`;
+ClearAllLibraries();
+$callstring = "cd " . $Settings['arduino_library'] . " && git clone  " . str_replace('https://github.com/','git@github.com:',$liburl) . " 2>/dev/null";
+$tmp = `$callstring`;
 $callstring = "find " . $Settings['arduino_library'] . " -name 'library.properties'"  ;  
 //echo $callstring . PHP_EOL;
 $pf = str_replace("\n","",`$callstring`);
@@ -201,36 +232,75 @@ if (strlen($pf)>0 ){
     $pf = array();
 
         for($y=0;$y < count($tags);$y++){
-            $pf[$tag] = "";
+            $pf[$tags[$y]] = "";
 	}
 
     for($x = 0; $x < count($lines);$x++){
         $line = $lines[$x];
-
+        echo "--->" . $line . PHP_EOL;
         for($y=0;$y < count($tags);$y++){
             $tag = $tags[$y];
         if(strlen($line)>strlen($tag ."=")) if(substr($line,0,strlen($tag . "=")) == $tag . "=") $pf[$tag] = explode("=",$line,2)[1];
-
+            
         }
 
         print_r(substr($line,0,strlen("version=")));
         echo PHP_EOL;
     }
 
+    $snippet['architectures'] = array();
+    if(strlen($pf['architectures'])> 0){
+        $snippet['architectures'] = explode(",",$pf['architectures']);
+    }
+
+    $depends = "";
+    $snippet['depends'] = array();
+    if(strlen($pf['depends'])> 0){
+
+        $snippet['depends'] = explode(",",$pf['depends']);
+        for($x = 0; $x < count($snippet['depends']);$x++){
+            $snippet['depends'][$x] = trim($snippet['depends'][$x]);
+        }
+    }
+    $depends = implode(",",$snippet['depends']);
+
+
+$data = [
+    'lib_name' => $pf['name'],
+    'lib_url' => $liburl,
+    'lib_version' => $pf['version'],
+    'lib_depends' => $depends,
+    'lib_architectures' => ","  . implode(",",$snippet['architectures'])  . ",",
+    'lib_sentence' => $pf['sentence'],
+    //'pf' => $pf
+];
+db::insertIgnore("libs",$data);
+$pf = $data;
 
 }
+
+
     return $pf;
 }
 
 
-/*
-version=1.7.0
-author=Arduino
-maintainer=Arduino <info@arduino.cc>
-sentence=Enables communication between the Linux processor and the microcontroller. For Arduino Yún, Yún Shield and TRE only.
-paragraph=The Bridge library features: access to the shared storage, run and manage Linux processes, open a remote console, access to the Linux file system, including the SD card, establish HTTP clients or servers.
-category=Communication
-url=http://www.arduino.cc/en/Reference/YunBridgeLibrary
-architectures=*
-
- */
+function GitCheckoutTag($liburl,$version){
+    global $Settings;
+    $callstring = "cd " . $Settings['arduino_library'] . " && git clone  " . str_replace('https://github.com/','git@github.com:',$liburl) . " 2>/dev/null";
+    $bnc = "basename '$liburl' '.git'";
+    $bn = str_replace("\n","", `$bnc`);
+    $tmp = `$callstring`;
+    $callstring = "cd '" . $Settings['arduino_library'] . $bn . "' && git tag";
+    $tmp = `$callstring`;
+    $finaltag="";
+    $tags = explode("\n",$tmp);
+    for($x=0;$x<count($tags);$x++){
+        if ( $version == $tags[$x] || "v" . $version == $tags[$x] || "v." . $version ==  $tags[$x] ){
+            $finaltag = $tags[$x];
+        }
+    }
+    if(strlen($finaltag)>0){
+        $callstring = "cd '" . $Settings['arduino_library'] . $bn . "' && git checkout 'tags/$finaltag'";
+        $tmp = `$callstring`;
+    }
+}

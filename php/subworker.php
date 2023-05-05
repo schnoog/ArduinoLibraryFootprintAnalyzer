@@ -3,10 +3,18 @@
 
 include_once( __DIR__ . "/init.php");
 
+$url = 'https://github.com/arduino-libraries/Bridge.git';
+$url = "https://github.com/adafruit/Adafruit_VL53L0X";
+$url = "https://github.com/MHeironimus/ArduinoJoystickLibrary";
+//$tmp = fAddNewLibrary($url);
 
-$tmp = fGetLibraryDetails('https://github.com/arduino-libraries/Bridge.git');
+//print_r($tmp);
 
-print_r($tmp);
+//GitCheckoutTag( "git@github.com:MHeironimus/ArduinoJoystickLibrary.git" ,"2.1.1");
+
+
+
+
 /*
 $sql = "SELECT * from libs WHERE lib_platform = 1 AND (lib_mindynspace <= 149 OR lib_minprogspace <= 3462) ";
 
