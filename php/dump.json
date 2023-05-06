@@ -370,7 +370,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for the BMP183 sensors in the Adafruit shop",
             "object": "lib",
-            "repolabel": "adafruit\/Adafruit_BMP183_Unified_Library.git",
+            "repolabel": "adafruit\/Adafruit_BMP183_Unified_Library .git",
             "loadProg": 7224,
             "loadDyn": 355
         },
@@ -489,7 +489,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for interfacing to the fingerprint sensor in the Adafruit shop",
             "object": "lib",
-            "repolabel": "adafruit\/Adafruit-Fingerprint-Sensor-Library.git",
+            "repolabel": "adafruit\/Adafruit-Fingerprint-Sensor-Lib rary.git",
             "loadProg": 1008,
             "loadDyn": 175
         },
@@ -761,7 +761,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino Library for MCP23XXX I2C and SPI GPIO port expanders",
             "object": "lib",
-            "repolabel": "adafruit\/Adafruit-MCP23017-Arduino-Library.git",
+            "repolabel": "adafruit\/Adafruit-MCP23017-Arduino-Libra ry.git",
             "loadProg": 5654,
             "loadDyn": 279
         },
@@ -863,7 +863,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for the Adafruit Motor Shield V2 for Arduino. It supports DC motors & stepper motors with microstepping as well as stacking-support.",
             "object": "lib",
-            "repolabel": "adafruit\/Adafruit_Motor_Shield_V2_Library.git",
+            "repolabel": "adafruit\/Adafruit_Motor_Shield_V2_Librar y.git",
             "loadProg": 4594,
             "loadDyn": 404
         },
@@ -948,7 +948,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino driver for PC8544, most commonly found in small Nokia 5110's",
             "object": "lib",
-            "repolabel": "adafruit\/Adafruit-PCD8544-Nokia-5110-LCD-library.git",
+            "repolabel": "adafruit\/Adafruit-PCD8544-Nokia-5110-LCD -library.git",
             "loadProg": 15174,
             "loadDyn": 849
         },
@@ -1016,7 +1016,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Adafruit PWM Servo Driver Library",
             "object": "lib",
-            "repolabel": "adafruit\/Adafruit-PWM-Servo-Driver-Library.git",
+            "repolabel": "adafruit\/Adafruit-PWM-Servo-Driver-Libra ry.git",
             "loadProg": 1506,
             "loadDyn": 210
         },
@@ -1033,7 +1033,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for the Adafruit RGB 16x2 LCD Shield.",
             "object": "lib",
-            "repolabel": "adafruit\/Adafruit-RGB-LCD-Shield-Library.git",
+            "repolabel": "adafruit\/Adafruit-RGB-LCD-Shield-Library .git",
             "loadProg": 5348,
             "loadDyn": 322
         },
@@ -1067,7 +1067,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "This is an Arduino library for the Adafruit Monochrome SHARP Memory Displays",
             "object": "lib",
-            "repolabel": "adafruit\/Adafruit_SHARP_Memory_Display.git",
+            "repolabel": "adafruit\/Adafruit_SHARP_Memory_Display.g it",
             "loadProg": 12854,
             "loadDyn": 230
         },
@@ -1186,7 +1186,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "For 0.96\" OLEDs in the Adafruit shop",
             "object": "lib",
-            "repolabel": "adafruit\/Adafruit-SSD1331-OLED-Driver-Library-for-Arduino.git",
+            "repolabel": "adafruit\/Adafruit-SSD1331-OLED-Driver-Li brary-for-Arduino.git",
             "loadProg": 12428,
             "loadDyn": 326
         },
@@ -1254,7 +1254,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino Library for Small Thermal Printers",
             "object": "lib",
-            "repolabel": "adafruit\/Adafruit-Thermal-Printer-Library.git",
+            "repolabel": "adafruit\/Adafruit-Thermal-Printer-Librar y.git",
             "loadProg": 4216,
             "loadDyn": 161
         },
@@ -1441,7 +1441,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for VC0706-based Serial JPEG Cameras",
             "object": "lib",
-            "repolabel": "adafruit\/Adafruit-VC0706-Serial-Camera-Library.git",
+            "repolabel": "adafruit\/Adafruit-VC0706-Serial-Camera-L ibrary.git",
             "loadProg": 13150,
             "loadDyn": 1143
         },
@@ -1594,7 +1594,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "An arduino library to turn a Pro Trinket 5V\/16MHz into a USB Keyboard!",
             "object": "lib",
-            "repolabel": "adafruit\/Pro_Trinket_USB_Keyboard_Library.git",
+            "repolabel": "adafruit\/Pro_Trinket_USB_Keyboard_Librar y.git",
             "loadProg": 2820,
             "loadDyn": 87
         },
@@ -3209,7 +3209,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino compatible software support for TinyScreen and TinyScreen+.",
             "object": "lib",
-            "repolabel": "TinyCircuits\/TinyCircuits-TinyScreen_Lib.git",
+            "repolabel": "TinyCircuits\/TinyCircuits-TinyScreen_Lib .git",
             "loadProg": 8084,
             "loadDyn": 579
         },
@@ -3243,7 +3243,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A simple and easy library for the MS5837 pressure\/depth sensor",
             "object": "lib",
-            "repolabel": "bluerobotics\/BlueRobotics_MS5837_Library.git",
+            "repolabel": "bluerobotics\/BlueRobotics_MS5837_Library .git",
             "loadProg": 9514,
             "loadDyn": 453
         },
@@ -3277,7 +3277,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A simple and easy library for the TSYS01 temperature sensor",
             "object": "lib",
-            "repolabel": "bluerobotics\/BlueRobotics_TSYS01_Library.git",
+            "repolabel": "bluerobotics\/BlueRobotics_TSYS01_Library .git",
             "loadProg": 3288,
             "loadDyn": 270
         },
@@ -3566,7 +3566,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "An Arduino Library to receive data from Wiegand card readers.",
             "object": "lib",
-            "repolabel": "paulo-raca\/YetAnotherArduinoWiegandLibrary.git",
+            "repolabel": "paulo-raca\/YetAnotherArduinoWiegandLibra ry.git",
             "loadProg": 2816,
             "loadDyn": 252
         },
@@ -3600,7 +3600,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo 7Segment LED I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBo7Seg-TLC59208-Library.git",
+            "repolabel": "FaBoPlatform\/FaBo7Seg-TLC59208-Library.g it",
             "loadProg": 2730,
             "loadDyn": 289
         },
@@ -3651,7 +3651,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo Humidity I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBoHumidity-HTS221-Library.git",
+            "repolabel": "FaBoPlatform\/FaBoHumidity-HTS221-Library .git",
             "loadProg": 5434,
             "loadDyn": 321
         },
@@ -3685,7 +3685,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo 9Axis I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBo9AXIS-MPU9250-Library.git",
+            "repolabel": "FaBoPlatform\/FaBo9AXIS-MPU9250-Library.g it",
             "loadProg": 6058,
             "loadDyn": 385
         },
@@ -3702,7 +3702,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo Proximity I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBoProximity-VCNL4010-Library.git",
+            "repolabel": "FaBoPlatform\/FaBoProximity-VCNL4010-Libr ary.git",
             "loadProg": 3122,
             "loadDyn": 237
         },
@@ -3719,7 +3719,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo Barometer I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBoBarometer-MPL115-Library.git",
+            "repolabel": "FaBoPlatform\/FaBoBarometer-MPL115-Librar y.git",
             "loadProg": 5290,
             "loadDyn": 267
         },
@@ -3736,7 +3736,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo 3AXIS I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBo3Axis-ADXL345-Library.git",
+            "repolabel": "FaBoPlatform\/FaBo3Axis-ADXL345-Library.g it",
             "loadProg": 2980,
             "loadDyn": 277
         },
@@ -3753,7 +3753,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo GPIO I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBoGPIO-PCAL6408-Library.git",
+            "repolabel": "FaBoPlatform\/FaBoGPIO-PCAL6408-Library.g it",
             "loadProg": 2636,
             "loadDyn": 228
         },
@@ -3770,7 +3770,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo Color I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBoColor-s11059-Library.git",
+            "repolabel": "FaBoPlatform\/FaBoColor-s11059-Library.gi t",
             "loadProg": 3412,
             "loadDyn": 249
         },
@@ -3787,7 +3787,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo Temperature I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBoTemperature-ADT7410-Library.git",
+            "repolabel": "FaBoPlatform\/FaBoTemperature-ADT7410-Lib rary.git",
             "loadProg": 4388,
             "loadDyn": 251
         },
@@ -3821,7 +3821,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo KTemp I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBoKTemp-MCP3421-Library.git",
+            "repolabel": "FaBoPlatform\/FaBoKTemp-MCP3421-Library.g it",
             "loadProg": 4518,
             "loadDyn": 245
         },
@@ -3838,7 +3838,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo Ambient Light I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBoAmbientLight-ISL29034-Library.git",
+            "repolabel": "FaBoPlatform\/FaBoAmbientLight-ISL29034-L ibrary.git",
             "loadProg": 4928,
             "loadDyn": 315
         },
@@ -3889,7 +3889,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo LCD mini I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBoLCDmini-AQM0802A-Library.git",
+            "repolabel": "FaBoPlatform\/FaBoLCDmini-AQM0802A-Librar y.git",
             "loadProg": 2492,
             "loadDyn": 241
         },
@@ -3923,7 +3923,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo OLED I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBoOLED-EROLED096-Library.git",
+            "repolabel": "FaBoPlatform\/FaBoOLED-EROLED096-Library. git",
             "loadProg": 5474,
             "loadDyn": 255
         },
@@ -3940,7 +3940,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Texas Instruments HDC1080 Low Power, High Accuracy Digital Humidity Sensor with Temperature Sensor",
             "object": "lib",
-            "repolabel": "closedcube\/ClosedCube_HDC1080_Arduino.git",
+            "repolabel": "closedcube\/ClosedCube_HDC1080_Arduino.gi t",
             "loadProg": 5172,
             "loadDyn": 345
         },
@@ -4620,7 +4620,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for control Ingenia Servo Drives using serial communication.",
             "object": "lib",
-            "repolabel": "IngeniaMC\/Ingenia-Serial-Servo-Drive-Library.git",
+            "repolabel": "IngeniaMC\/Ingenia-Serial-Servo-Drive-Lib rary.git",
             "loadProg": 3720,
             "loadDyn": 252
         },
@@ -4756,7 +4756,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Texas Instruments OPT3001 Digital Ambient Light Sensor (ALS)",
             "object": "lib",
-            "repolabel": "closedcube\/ClosedCube_OPT3001_Arduino.git",
+            "repolabel": "closedcube\/ClosedCube_OPT3001_Arduino.gi t",
             "loadProg": 8710,
             "loadDyn": 715
         },
@@ -4773,7 +4773,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Texas Instruments OPT3002 Light to Digital Sensor",
             "object": "lib",
-            "repolabel": "closedcube\/ClosedCube_OPT3002_Arduino.git",
+            "repolabel": "closedcube\/ClosedCube_OPT3002_Arduino.gi t",
             "loadProg": 8676,
             "loadDyn": 713
         },
@@ -4790,7 +4790,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for STMicroelectronics LPS25HB MEMS pressure sensor: 260-1260 hPa absolute digital output barometer",
             "object": "lib",
-            "repolabel": "closedcube\/ClosedCube_LPS25HB_Arduino.git",
+            "repolabel": "closedcube\/ClosedCube_LPS25HB_Arduino.gi t",
             "loadProg": 4972,
             "loadDyn": 309
         },
@@ -4841,7 +4841,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Texas Instruments HDC1010 Low Power, High Accuracy Digital Humidity Sensor with Temperature Sensor",
             "object": "lib",
-            "repolabel": "closedcube\/ClosedCube_HDC1010_Arduino.git",
+            "repolabel": "closedcube\/ClosedCube_HDC1010_Arduino.gi t",
             "loadProg": 6074,
             "loadDyn": 809
         },
@@ -4909,7 +4909,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "MIDI I\/Os for Arduino",
             "object": "lib",
-            "repolabel": "FortySevenEffects\/arduino_midi_library.git",
+            "repolabel": "FortySevenEffects\/arduino_midi_library.g it",
             "loadProg": 3242,
             "loadDyn": 327
         },
@@ -4926,7 +4926,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Texas Instruments TCA9538 Remote 8-Bit I2C and SMBus Low-Power I\/O Expander",
             "object": "lib",
-            "repolabel": "closedcube\/ClosedCube_TCA9538_Arduino.git",
+            "repolabel": "closedcube\/ClosedCube_TCA9538_Arduino.gi t",
             "loadProg": 3696,
             "loadDyn": 337
         },
@@ -5385,7 +5385,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Maxim Integrated MAX30205 Human Body Temperature Sensor",
             "object": "lib",
-            "repolabel": "closedcube\/ClosedCube_MAX30205_Arduino.git",
+            "repolabel": "closedcube\/ClosedCube_MAX30205_Arduino.g it",
             "loadProg": 4070,
             "loadDyn": 269
         },
@@ -5521,7 +5521,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for the MPS MagAlpha magnetic angle sensor.",
             "object": "lib",
-            "repolabel": "monolithicpower\/MagAlpha-Arduino-Library.git",
+            "repolabel": "monolithicpower\/MagAlpha-Arduino-Library .git",
             "loadProg": 1076,
             "loadDyn": 19
         },
@@ -6388,7 +6388,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A simple and easy library for the Keller LD series pressure\/depth sensors",
             "object": "lib",
-            "repolabel": "bluerobotics\/BlueRobotics_KellerLD_Library.git",
+            "repolabel": "bluerobotics\/BlueRobotics_KellerLD_Libra ry.git",
             "loadProg": 6672,
             "loadDyn": 409
         },
@@ -6507,7 +6507,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Simulated Reactor communication protocol.",
             "object": "lib",
-            "repolabel": "WPIRoboticsEngineering\/ReactorProtocol.git",
+            "repolabel": "WPIRoboticsEngineering\/ReactorProtocol.g it",
             "loadProg": 1088,
             "loadDyn": 177
         },
@@ -6626,7 +6626,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Texas Instruments TCA9546A 4-Channel I2C Multiplexer\/Switch With Reset Function",
             "object": "lib",
-            "repolabel": "closedcube\/ClosedCube_TCA9546A_Arduino.git",
+            "repolabel": "closedcube\/ClosedCube_TCA9546A_Arduino.g it",
             "loadProg": 2694,
             "loadDyn": 280
         },
@@ -6932,7 +6932,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for the Pololu Dual G2 High Power Motor Driver Shields",
             "object": "lib",
-            "repolabel": "pololu\/dual-g2-high-power-motor-shield.git",
+            "repolabel": "pololu\/dual-g2-high-power-motor-shield.g it",
             "loadProg": 2636,
             "loadDyn": 92
         },
@@ -7731,7 +7731,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library to control Grove - High Precision RTC_PCF85063TP.",
             "object": "lib",
-            "repolabel": "Seeed-Studio\/Grove_High_Precision_RTC_PCF85063TP.git",
+            "repolabel": "Seeed-Studio\/Grove_High_Precision_RTC_PC F85063TP.git",
             "loadProg": 3570,
             "loadDyn": 282
         },
@@ -7765,7 +7765,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library to control Grove - Digital Light Sensor(TSL2561\/ISL29035).",
             "object": "lib",
-            "repolabel": "Seeed-Studio\/Grove_Digital_Light_Sensor.git",
+            "repolabel": "Seeed-Studio\/Grove_Digital_Light_Sensor. git",
             "loadProg": 3942,
             "loadDyn": 326
         },
@@ -7969,7 +7969,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library to control Grove I2C Motor Driver.",
             "object": "lib",
-            "repolabel": "Seeed-Studio\/Grove_I2C_Motor_Driver_v1_3.git",
+            "repolabel": "Seeed-Studio\/Grove_I2C_Motor_Driver_v1_3 .git",
             "loadProg": 2570,
             "loadDyn": 222
         },
@@ -8020,7 +8020,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library to control Grove - LoRa Radio 868MHz and Grove - LoRa Radio 433MHz.",
             "object": "lib",
-            "repolabel": "Seeed-Studio\/Grove_LoRa_433MHz_and_915MHz_RF.git",
+            "repolabel": "Seeed-Studio\/Grove_LoRa_433MHz_and_915MH z_RF.git",
             "loadProg": 1690,
             "loadDyn": 276
         },
@@ -8037,7 +8037,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library to control Grove SHT31 Temp Humi Sensor.",
             "object": "lib",
-            "repolabel": "Seeed-Studio\/Grove_SHT31_Temp_Humi_Sensor.git",
+            "repolabel": "Seeed-Studio\/Grove_SHT31_Temp_Humi_Senso r.git",
             "loadProg": 4968,
             "loadDyn": 269
         },
@@ -8071,7 +8071,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library to control Grove Temper Humidity TH02",
             "object": "lib",
-            "repolabel": "Seeed-Studio\/Grove_Temper_Humidity_TH02.git",
+            "repolabel": "Seeed-Studio\/Grove_Temper_Humidity_TH02. git",
             "loadProg": 4998,
             "loadDyn": 324
         },
@@ -8411,7 +8411,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A high-level abstaction over Sds sensors family",
             "object": "lib",
-            "repolabel": "lewapek\/sds-dust-sensors-arduino-library.git",
+            "repolabel": "lewapek\/sds-dust-sensors-arduino-library .git",
             "loadProg": 9368,
             "loadDyn": 690
         },
@@ -8581,7 +8581,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Allows anyone to control H-Bridge for Hyperduino",
             "object": "lib",
-            "repolabel": "HullabalooRobotics\/Hyperduino-Library.git",
+            "repolabel": "HullabalooRobotics\/Hyperduino-Library.gi t",
             "loadProg": 2786,
             "loadDyn": 147
         },
@@ -8632,7 +8632,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for using Cytron Servo Shield",
             "object": "lib",
-            "repolabel": "CytronTechnologies\/Cytron_Servo_Shield_Library.git",
+            "repolabel": "CytronTechnologies\/Cytron_Servo_Shield_L ibrary.git",
             "loadProg": 2416,
             "loadDyn": 162
         },
@@ -8785,7 +8785,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for the <a href=\"https:\/\/www.sparkfun.com\/products\/14860\">SparkFun RGB OLED 64x64 0.6\" - SSD1357<\/a>.",
             "object": "lib",
-            "repolabel": "sparkfun\/Sparkfun_RGB_OLED_64x64_Arduino_Library.git",
+            "repolabel": "sparkfun\/Sparkfun_RGB_OLED_64x64_Arduino _Library.git",
             "loadProg": 6034,
             "loadDyn": 527
         },
@@ -9499,7 +9499,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo Color I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBoColor-BH1749NUC-Library.git",
+            "repolabel": "FaBoPlatform\/FaBoColor-BH1749NUC-Library .git",
             "loadProg": 3550,
             "loadDyn": 331
         },
@@ -9635,7 +9635,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo Environment I2C Brick",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBoEnvironment-BME680-Library.git",
+            "repolabel": "FaBoPlatform\/FaBoEnvironment-BME680-Libr ary.git",
             "loadProg": 10460,
             "loadDyn": 555
         },
@@ -9788,7 +9788,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "QuickMedian Library",
             "object": "lib",
-            "repolabel": "luisllamasbinaburo\/Arduino-QuickMedian.git",
+            "repolabel": "luisllamasbinaburo\/Arduino-QuickMedian.g it",
             "loadProg": 792,
             "loadDyn": 230
         },
@@ -9924,7 +9924,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "ATmega32U4 Arduino library to read values from Grove Air Quality Sensor.",
             "object": "lib",
-            "repolabel": "JCardoen\/ATmega32U4-Grove-Air-quality-sensor.git",
+            "repolabel": "JCardoen\/ATmega32U4-Grove-Air-quality-se nsor.git",
             "loadProg": 1356,
             "loadDyn": 206
         },
@@ -9941,7 +9941,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library for FaBo GPIO.",
             "object": "lib",
-            "repolabel": "FaBoPlatform\/FaBoGPIO40-PCA9698-Library.git",
+            "repolabel": "FaBoPlatform\/FaBoGPIO40-PCA9698-Library. git",
             "loadProg": 2728,
             "loadDyn": 222
         },
@@ -10621,7 +10621,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Allows Arduino\/Genuino boards to simplify the use of the Ultrasonic Sensor.",
             "object": "lib",
-            "repolabel": "gmarty2000-ARDUINO\/arduino-ULTRASONIC_SENSOR.git",
+            "repolabel": "gmarty2000-ARDUINO\/arduino-ULTRASONIC_SE NSOR.git",
             "loadProg": 1146,
             "loadDyn": 10
         },
@@ -10774,7 +10774,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Arduino library for Texas Instruments TCA9548A 8-Channel I2C Switch\/Multiplexer",
             "object": "lib",
-            "repolabel": "closedcube\/ClosedCube_TCA9548A_Arduino.git",
+            "repolabel": "closedcube\/ClosedCube_TCA9548A_Arduino.g it",
             "loadProg": 2756,
             "loadDyn": 372
         },
@@ -10808,7 +10808,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Allows Arduino\/Genuino boards to simplify the use of the soil hygrometer.",
             "object": "lib",
-            "repolabel": "gmarty2000-ARDUINO\/arduino-SOIL_HYGROMETER.git",
+            "repolabel": "gmarty2000-ARDUINO\/arduino-SOIL_HYGROMET ER.git",
             "loadProg": 1830,
             "loadDyn": 38
         },
@@ -10944,7 +10944,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for the MAX86150 PPG and ECG sensor module breakout board",
             "object": "lib",
-            "repolabel": "Protocentral\/protocentral_max86150_ecg_ppg.git",
+            "repolabel": "Protocentral\/protocentral_max86150_ecg_p pg.git",
             "loadProg": 4106,
             "loadDyn": 358
         },
@@ -11403,7 +11403,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "High-Power Stepper Motor Driver library for Arduino",
             "object": "lib",
-            "repolabel": "pololu\/high-power-stepper-driver-arduino.git",
+            "repolabel": "pololu\/high-power-stepper-driver-arduino .git",
             "loadProg": 1252,
             "loadDyn": 18
         },
@@ -12661,7 +12661,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Use reliable Packet Serial to communicate with your Kangaroo.",
             "object": "lib",
-            "repolabel": "DimensionEngineering\/Kangaroo_Arduino_Library.git",
+            "repolabel": "DimensionEngineering\/Kangaroo_Arduino_Li brary.git",
             "loadProg": 4212,
             "loadDyn": 222
         },
@@ -12865,7 +12865,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Simple helper functions for using Wireling boards.",
             "object": "lib",
-            "repolabel": "TinyCircuits\/TinyCircuits-Wireling-Lib.git",
+            "repolabel": "TinyCircuits\/TinyCircuits-Wireling-Lib.g it",
             "loadProg": 2900,
             "loadDyn": 252
         },
@@ -13035,7 +13035,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library to call a callback repetively after a certain time.",
             "object": "lib",
-            "repolabel": "yesbotics\/libs\/arduino\/interval-callback.git",
+            "repolabel": "yesbotics\/libs\/arduino\/interval-callback .git",
             "loadProg": 1682,
             "loadDyn": 47
         },
@@ -13188,7 +13188,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for communicate between serial port enabled devices",
             "object": "lib",
-            "repolabel": "yesbotics\/simple-serial-protocol\/simple-serial-protocol-arduino.git",
+            "repolabel": "yesbotics\/simple-serial-protocol\/simple- serial-protocol-arduino.git",
             "loadProg": 4784,
             "loadDyn": 47
         },
@@ -13256,7 +13256,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A driver library for the LSM9DS1 9-DOF IMU.",
             "object": "lib",
-            "repolabel": "melopero\/Melopero_LSM9DS1_Arduino_Library.git",
+            "repolabel": "melopero\/Melopero_LSM9DS1_Arduino_Librar y.git",
             "loadProg": 8384,
             "loadDyn": 888
         },
@@ -13426,7 +13426,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Allows the car to run over a specific path (Line).",
             "object": "lib",
-            "repolabel": "Nouryas-Tech\/Nouryas-Advanced-Line-Follower-Array.git",
+            "repolabel": "Nouryas-Tech\/Nouryas-Advanced-Line-Follo wer-Array.git",
             "loadProg": 3014,
             "loadDyn": 16
         },
@@ -13460,7 +13460,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "An Arduino library to control the Iowa Scaled Engineering I2C-IRSENSE ( https:\/\/www.iascaled.com\/store\/I2C-IRSENSE ) reflective infrared proximity sensor.",
             "object": "lib",
-            "repolabel": "IowaScaledEngineering\/arduino-irsense.git",
+            "repolabel": "IowaScaledEngineering\/arduino-irsense.gi t",
             "loadProg": 3480,
             "loadDyn": 230
         },
@@ -13494,7 +13494,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Control any NeoPixel Matrix using processing like methods",
             "object": "lib",
-            "repolabel": "ramonheras\/Pixel-and-Play-Arduino-Library.git",
+            "repolabel": "ramonheras\/Pixel-and-Play-Arduino-Librar y.git",
             "loadProg": 6256,
             "loadDyn": 303
         },
@@ -13545,7 +13545,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Professional PID controllers: continuous, step, impulse and twelve control functions",
             "object": "lib",
-            "repolabel": "KorneliusThomas\/PIDcontrollersModularProfessional.git",
+            "repolabel": "KorneliusThomas\/PIDcontrollersModularPro fessional.git",
             "loadProg": 7262,
             "loadDyn": 101
         },
@@ -13800,7 +13800,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A driver library for the SAM-M8Q GNSS Antenna Module.",
             "object": "lib",
-            "repolabel": "melopero\/Melopero_SAM-M8Q_Arduino_Library.git",
+            "repolabel": "melopero\/Melopero_SAM-M8Q_Arduino_Librar y.git",
             "loadProg": 7820,
             "loadDyn": 1268
         },
@@ -13902,7 +13902,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Beginner friendly projects and project libraries by CircuitsFun",
             "object": "lib",
-            "repolabel": "CircuitsFun\/CircuitsFunProjects-Library-for-Arduino.git",
+            "repolabel": "CircuitsFun\/CircuitsFunProjects-Library- for-Arduino.git",
             "loadProg": 6102,
             "loadDyn": 302
         },
@@ -14718,7 +14718,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A driver library for the AMG8833 sensor.",
             "object": "lib",
-            "repolabel": "melopero\/Melopero_AMG8833_Arduino_Library.git",
+            "repolabel": "melopero\/Melopero_AMG8833_Arduino_Librar y.git",
             "loadProg": 7016,
             "loadDyn": 843
         },
@@ -15789,7 +15789,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "An Arduino library for the Pololu TB9051FTG motor driver carrier.",
             "object": "lib",
-            "repolabel": "MeelonUsk\/tb9051ftg-motor-carrier-arduino.git",
+            "repolabel": "MeelonUsk\/tb9051ftg-motor-carrier-arduin o.git",
             "loadProg": 2438,
             "loadDyn": 21
         },
@@ -17370,7 +17370,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A driver library for the BME280 sensor.",
             "object": "lib",
-            "repolabel": "melopero\/Melopero_BME280_Arduino_Library.git",
+            "repolabel": "melopero\/Melopero_BME280_Arduino_Library .git",
             "loadProg": 8762,
             "loadDyn": 479
         },
@@ -17387,7 +17387,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A driver library for the RV3028 rtc.",
             "object": "lib",
-            "repolabel": "melopero\/Melopero_RV-3028_Arduino_Library.git",
+            "repolabel": "melopero\/Melopero_RV-3028_Arduino_Librar y.git",
             "loadProg": 3242,
             "loadDyn": 228
         },
@@ -17404,7 +17404,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A driver library for the VL53L1X sensor.",
             "object": "lib",
-            "repolabel": "melopero\/Melopero_VL53L1X_Arduino_Library.git",
+            "repolabel": "melopero\/Melopero_VL53L1X_Arduino_Librar y.git",
             "loadProg": 20260,
             "loadDyn": 1909
         },
@@ -17591,7 +17591,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A driver library for the APDS9960 sensor.",
             "object": "lib",
-            "repolabel": "melopero\/Melopero_APDS-9960_Arduino_Library.git",
+            "repolabel": "melopero\/Melopero_APDS-9960_Arduino_Libr ary.git",
             "loadProg": 3464,
             "loadDyn": 245
         },
@@ -17659,7 +17659,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for the Pololu 3pi+ 32u4 Robot",
             "object": "lib",
-            "repolabel": "pololu\/pololu-3pi-plus-32u4-arduino-library.git",
+            "repolabel": "pololu\/pololu-3pi-plus-32u4-arduino-libr ary.git",
             "loadProg": 2566,
             "loadDyn": 63
         },
@@ -17676,7 +17676,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A lightweight telemetry protocol for hardware sensor data.",
             "object": "lib",
-            "repolabel": "telemetryjet\/telemetryjet-arduino-sdk.git",
+            "repolabel": "telemetryjet\/telemetryjet-arduino-sdk.gi t",
             "loadProg": 10394,
             "loadDyn": 162
         },
@@ -17846,7 +17846,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for the ProtoCentral Pulse Express board",
             "object": "lib",
-            "repolabel": "Protocentral\/protocentral-pulse-express.git",
+            "repolabel": "Protocentral\/protocentral-pulse-express. git",
             "loadProg": 5194,
             "loadDyn": 1371
         },
@@ -18186,7 +18186,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A lightweight library for interfacing with CD74HC4067 Mux.",
             "object": "lib",
-            "repolabel": "SunitRaut\/Lightweight-CD74HC4067-Arduino.git",
+            "repolabel": "SunitRaut\/Lightweight-CD74HC4067-Arduino .git",
             "loadProg": 612,
             "loadDyn": 4
         },
@@ -18220,7 +18220,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Use serial communication to control flight sim.",
             "object": "lib",
-            "repolabel": "BitsAndDroids\/BitsAndDroidsFlightSimLibrary.git",
+            "repolabel": "BitsAndDroids\/BitsAndDroidsFlightSimLibr ary.git",
             "loadProg": 2816,
             "loadDyn": 510
         },
@@ -18373,7 +18373,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Tools for the Leeman Geophysical LLC Learning Shield.",
             "object": "lib",
-            "repolabel": "LeemanGeophysicalLLC\/LGLearningShieldLibrary.git",
+            "repolabel": "LeemanGeophysicalLLC\/LGLearningShieldLib rary.git",
             "loadProg": 5414,
             "loadDyn": 629
         },
@@ -18475,7 +18475,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library to control the Iowa Scaled Engineering I2C-MCP3427 ( https:\/\/www.iascaled.com\/store\/I2C-MCP3427 ) 16-bit analog to digital converter",
             "object": "lib",
-            "repolabel": "IowaScaledEngineering\/arduino-mcp3427.git",
+            "repolabel": "IowaScaledEngineering\/arduino-mcp3427.gi t",
             "loadProg": 4894,
             "loadDyn": 264
         },
@@ -18492,7 +18492,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library to read from the ProtoCentral ADS1293 ECG breakout",
             "object": "lib",
-            "repolabel": "Protocentral\/protocentral-ads1293-arduino.git",
+            "repolabel": "Protocentral\/protocentral-ads1293-arduin o.git",
             "loadProg": 1706,
             "loadDyn": 15
         },
@@ -18747,7 +18747,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Configures and communicates with the SparkFun Qwiic TMF-8801 Time-of-flight sensor.",
             "object": "lib",
-            "repolabel": "sparkfun\/SparkFun_TMF8801_Arduino_Library.git",
+            "repolabel": "sparkfun\/SparkFun_TMF8801_Arduino_Librar y.git",
             "loadProg": 4770,
             "loadDyn": 633
         },
@@ -19427,7 +19427,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "PortentaH7, LoRa and Ethernet Vision Shields and Breakout Board Organized: Robotics, Machine Learning and General Examples",
             "object": "lib",
-            "repolabel": "hpssjellis\/portenta-pro-community-solutions.git",
+            "repolabel": "hpssjellis\/portenta-pro-community-soluti ons.git",
             "loadProg": 4770,
             "loadDyn": 195
         },
@@ -19682,7 +19682,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Configures and communicates with the SparkFun Serial Fingerprint Scanners AS-108M and AD-013.",
             "object": "lib",
-            "repolabel": "sparkfun\/SparkFun_AS108M_Fingerprint_Scanner_Arduino_Library.git",
+            "repolabel": "sparkfun\/SparkFun_AS108M_Fingerprint_Sca nner_Arduino_Library.git",
             "loadProg": 5598,
             "loadDyn": 142
         },
@@ -20260,7 +20260,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Monitor and modify arduino variables via serial usb",
             "object": "lib",
-            "repolabel": "lozziboy\/arduino-serial-variable-table.git",
+            "repolabel": "lozziboy\/arduino-serial-variable-table.g it",
             "loadProg": 7702,
             "loadDyn": 91
         },
@@ -22402,7 +22402,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for the MPS MagVector 3D magnetic sensors.",
             "object": "lib",
-            "repolabel": "monolithicpower\/MagVector-Arduino-Library.git",
+            "repolabel": "monolithicpower\/MagVector-Arduino-Librar y.git",
             "loadProg": 5792,
             "loadDyn": 311
         },
@@ -22640,7 +22640,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap 5x7 LED Matrix",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-5x7-led-matris-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-5x7-led-matris-ardui no-library.git",
             "loadProg": 2948,
             "loadDyn": 261
         },
@@ -22657,7 +22657,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap Soil Moisture Sensor TL555Q",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-toprak-nemi-olcer-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-toprak-nemi-olcer-ar duino-library.git",
             "loadProg": 284,
             "loadDyn": 2
         },
@@ -22674,7 +22674,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap Rain sensor",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-yagmur-algilayici-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-yagmur-algilayici-ar duino-library.git",
             "loadProg": 3278,
             "loadDyn": 292
         },
@@ -22691,7 +22691,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap 6 Dof IMU LSM6DSM",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-6-eksen-ataletsel-olcum-birimi-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-6-eksen-ataletsel-ol cum-birimi-arduino-library.git",
             "loadProg": 6764,
             "loadDyn": 414
         },
@@ -22708,7 +22708,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap Dual Channel Line Follower TCRT5000",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-cift-kanalli-cizgi-algilayici-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-cift-kanalli-cizgi-a lgilayici-arduino-library.git",
             "loadProg": 3206,
             "loadDyn": 296
         },
@@ -22725,7 +22725,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Deneyap Dual Channel Motor Driver TC78H660FTG",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-cift-kanalli-motor-surucu-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-cift-kanalli-motor-s urucu-arduino-library.git",
             "loadProg": 3156,
             "loadDyn": 307
         },
@@ -22742,7 +22742,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap Gas Sensor",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-duman-dedektoru-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-duman-dedektoru-ardu ino-library.git",
             "loadProg": 3200,
             "loadDyn": 290
         },
@@ -22759,7 +22759,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap 9 Dof IMU MMC5603NJ, LSM6DSM",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-9-eksen-ataletsel-olcum-birimi-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-9-eksen-ataletsel-ol cum-birimi-arduino-library.git",
             "loadProg": 6478,
             "loadDyn": 283
         },
@@ -22776,7 +22776,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap Bas\u0131n\u00e7 \u00d6l\u00e7er MS5637-02BA03",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-basinc-olcer-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-basinc-olcer-arduino -library.git",
             "loadProg": 7256,
             "loadDyn": 272
         },
@@ -22793,7 +22793,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap ToF Range Finder Sensor VL53L0X",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-derinlik-olcer-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-derinlik-olcer-ardui no-library.git",
             "loadProg": 4520,
             "loadDyn": 264
         },
@@ -22810,7 +22810,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap Temperature&Humidity, Barometer Sensor SHT4X",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-sicaklik-nem-basinc-olcer-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-sicaklik-nem-basinc- olcer-arduino-library.git",
             "loadProg": 5286,
             "loadDyn": 272
         },
@@ -22827,7 +22827,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap Proximity Light Sensor LTR553",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-mesafe-olcer-isik-algilayici-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-mesafe-olcer-isik-al gilayici-arduino-library.git",
             "loadProg": 3080,
             "loadDyn": 243
         },
@@ -22844,7 +22844,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap Temperature Humidity SHTC3",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-sicaklik-nem-olcer-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-sicaklik-nem-olcer-a rduino-library.git",
             "loadProg": 4866,
             "loadDyn": 303
         },
@@ -22861,7 +22861,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap Gesture, Color, Proximity Sensor APDS9960",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-hareket-isik-renk-algilayici-mesafe-olcer-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-hareket-isik-renk-al gilayici-mesafe-olcer-arduino-library.gi t",
             "loadProg": 3360,
             "loadDyn": 279
         },
@@ -22878,7 +22878,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap UV Light Sensor LTR390",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-ultraviyole-isik-algilayici-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-ultraviyole-isik-alg ilayici-arduino-library.git",
             "loadProg": 5244,
             "loadDyn": 347
         },
@@ -22895,7 +22895,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap Infrarad Receiver Transmitter",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-kizilotesi-alici-verici-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-kizilotesi-alici-ver ici-arduino-library.git",
             "loadProg": 3136,
             "loadDyn": 270
         },
@@ -23626,7 +23626,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Allows you to read the accelerometer, magnetometer and gyroscope values from the IMU on your Arduino Nano 33 BLE Sense Rev2",
             "object": "lib",
-            "repolabel": "arduino-libraries\/Arduino_BMI270_BMM150.git",
+            "repolabel": "arduino-libraries\/Arduino_BMI270_BMM150. git",
             "loadProg": 26636,
             "loadDyn": 9626
         },
@@ -23660,7 +23660,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Deneyap Keypad",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-dokunmatik-tus-takimi-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-dokunmatik-tus-takim i-arduino-library.git",
             "loadProg": 2954,
             "loadDyn": 256
         },
@@ -23830,7 +23830,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Report builder of HID for Xbox SeriesX Controller.",
             "object": "lib",
-            "repolabel": "asukiaaa\/arduino-XboxSeriesXHIDReportBuilder.git",
+            "repolabel": "asukiaaa\/arduino-XboxSeriesXHIDReportBui lder.git",
             "loadProg": 2144,
             "loadDyn": 120
         },
@@ -24085,7 +24085,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A library that supports the Reefwing Motor Shield and Carrier Board.",
             "object": "lib",
-            "repolabel": "Reefwing-Software\/Reefwing-Motorshield.git",
+            "repolabel": "Reefwing-Software\/Reefwing-Motorshield.g it",
             "loadProg": 3292,
             "loadDyn": 68
         },
@@ -24187,7 +24187,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for the ProtoCentral TI TLA2021\/TLA2022\/TLA2024 breakout board.",
             "object": "lib",
-            "repolabel": "Protocentral\/protocentral_tla20XX_arduino.git",
+            "repolabel": "Protocentral\/protocentral_tla20XX_arduin o.git",
             "loadProg": 4362,
             "loadDyn": 259
         },
@@ -24391,7 +24391,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Allow user to communicate with Nokia 1.8 inch display.",
             "object": "lib",
-            "repolabel": "Abhishektiwari7\/Nokia_1.8_Inch_-Display_-SPFD54124B.git",
+            "repolabel": "Abhishektiwari7\/Nokia_1.8_Inch_-Display_ -SPFD54124B.git",
             "loadProg": 7184,
             "loadDyn": 1838
         },
@@ -24408,7 +24408,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Quad, High-Voltage EL Lamp Driver with I\u00b2C Interface.",
             "object": "lib",
-            "repolabel": "firechip\/Firechip_Analog_Devices_MAX14521E_Arduino_Library.git",
+            "repolabel": "firechip\/Firechip_Analog_Devices_MAX1452 1E_Arduino_Library.git",
             "loadProg": 2644,
             "loadDyn": 234
         },
@@ -24510,7 +24510,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for the Quectel EG25-G LTE",
             "object": "lib",
-            "repolabel": "firechip\/Firechip_Quectel_EG25-G_Arduino_Library.git",
+            "repolabel": "firechip\/Firechip_Quectel_EG25-G_Arduino _Library.git",
             "loadProg": 14170,
             "loadDyn": 616
         },
@@ -24612,7 +24612,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Firechip - Micro Crystal RV-8263 Arduino Library a Real-Time Clock Module with I2C-Bus",
             "object": "lib",
-            "repolabel": "firechip\/Firechip_RV-8263_Arduino_Library.git",
+            "repolabel": "firechip\/Firechip_RV-8263_Arduino_Librar y.git",
             "loadProg": 2840,
             "loadDyn": 305
         },
@@ -24680,7 +24680,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for controling SHTC3 sensor with EasyC comunication",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-SHTC3-Temperature-Humidity-Sensor-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-SHTC3-Tempe rature-Humidity-Sensor-Arduino-Library.g it",
             "loadProg": 5188,
             "loadDyn": 265
         },
@@ -24935,7 +24935,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library to change colors between different systems",
             "object": "lib",
-            "repolabel": "deneyapkart\/deneyap-renk-donusturme-arduino-library.git",
+            "repolabel": "deneyapkart\/deneyap-renk-donusturme-ardu ino-library.git",
             "loadProg": 4724,
             "loadDyn": 33
         },
@@ -25088,7 +25088,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for controlling ArduinoShield by Peanut King.",
             "object": "lib",
-            "repolabel": "peanut-king-solution\/PeanutKing_ArduinoShield.git",
+            "repolabel": "peanut-king-solution\/PeanutKing_ArduinoS hield.git",
             "loadProg": 3054,
             "loadDyn": 98
         },
@@ -25122,7 +25122,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Cursed Double Linked List Interface with previous\/next pointers for C++ and Arduino.",
             "object": "lib",
-            "repolabel": "handmade0octopus\/CursedDoubleLinkedListInterface-library.git",
+            "repolabel": "handmade0octopus\/CursedDoubleLinkedListI nterface-library.git",
             "loadProg": 2160,
             "loadDyn": 134
         },
@@ -25190,7 +25190,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Ultrasonic sensor is used to measure distance",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-Ultrasonic-Sensor-easyC-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-Ultrasonic- Sensor-easyC-Arduino-Library.git",
             "loadProg": 4522,
             "loadDyn": 307
         },
@@ -25207,7 +25207,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for 16x2 and 20x4 EasyC LCD displays",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-LCD-library.git",
+            "repolabel": "SolderedElectronics\/Soldered-LCD-library .git",
             "loadProg": 3302,
             "loadDyn": 250
         },
@@ -25224,7 +25224,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Obstacle Sensor easyC library",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-Obstacle-Sensor-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-Obstacle-Se nsor-Arduino-Library.git",
             "loadProg": 3414,
             "loadDyn": 297
         },
@@ -25241,7 +25241,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "MCP23017 board library for Arduino",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-MCP23017-Port-Expander-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-MCP23017-Po rt-Expander-Arduino-Library.git",
             "loadProg": 2988,
             "loadDyn": 234
         },
@@ -25258,7 +25258,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "CCS811 Environmental Sensor",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-CCS811-Air-Quality-Sensor-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-CCS811-Air- Quality-Sensor-Arduino-Library.git",
             "loadProg": 3818,
             "loadDyn": 295
         },
@@ -25275,7 +25275,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "CAN Bus Breakout Library for Arduino",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-CAN-Bus-Breakout-MCP2518-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-CAN-Bus-Bre akout-MCP2518-Arduino-Library.git",
             "loadProg": 9370,
             "loadDyn": 672
         },
@@ -25292,7 +25292,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "BME280 and BME680 EasyC Library",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-BME280-BME680-Gas-Sensor-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-BME280-BME6 80-Gas-Sensor-Arduino-Library.git",
             "loadProg": 15520,
             "loadDyn": 408
         },
@@ -25309,7 +25309,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "PCF85063A Board Library",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-PCF85063A-RTC-Module-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-PCF85063A-R TC-Module-Arduino-Library.git",
             "loadProg": 3526,
             "loadDyn": 318
         },
@@ -25326,7 +25326,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for Soldered MCP47A1 1 Channel 6 Bit DAC Breakout board",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-DAC-Breakout_MCP47A1-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-DAC-Breakou t_MCP47A1-Arduino-Library.git",
             "loadProg": 3834,
             "loadDyn": 263
         },
@@ -25343,7 +25343,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "WS2812 Programable Led Library",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-WS2812-Smart-Leds-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-WS2812-Smar t-Leds-Arduino-Library.git",
             "loadProg": 3478,
             "loadDyn": 191
         },
@@ -25360,7 +25360,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Simple Fingerprint Sensor by Soldered",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-Fingerprint-Sensor-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-Fingerprint -Sensor-Arduino-Library.git",
             "loadProg": 3248,
             "loadDyn": 267
         },
@@ -25377,7 +25377,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "PMS7003 Arduino Library by Soldered",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-PMS7003-Particle-Sensor-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-PMS7003-Par ticle-Sensor-Arduino-Library.git",
             "loadProg": 6418,
             "loadDyn": 242
         },
@@ -25394,7 +25394,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library used to easily operate with digital light sensor",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-Digital-Light-Sensor-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-Digital-Lig ht-Sensor-Arduino-Library.git",
             "loadProg": 3598,
             "loadDyn": 313
         },
@@ -25411,7 +25411,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "nRF24 Library for Soldered Boards",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-nRF24-Radio-Module-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-nRF24-Radio -Module-Arduino-Library.git",
             "loadProg": 3654,
             "loadDyn": 66
         },
@@ -25428,7 +25428,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Soldered BQ27441-G1 Arduino Library",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-BQ27441-Battery-Fuel-Gauge-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-BQ27441-Bat tery-Fuel-Gauge-Arduino-Library.git",
             "loadProg": 5944,
             "loadDyn": 367
         },
@@ -25445,7 +25445,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "INA219 Current Sensor Board Arduino Library by Soldered",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-INA219-Current-Sensor-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-INA219-Curr ent-Sensor-Arduino-Library.git",
             "loadProg": 6762,
             "loadDyn": 1055
         },
@@ -25462,7 +25462,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "SIM7020 NB-IoT Soldered library",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-SIM7020-NB-IoT-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-SIM7020-NB- IoT-Arduino-Library.git",
             "loadProg": 18064,
             "loadDyn": 414
         },
@@ -25496,7 +25496,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library for controling HX711 sensor",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-HX711-ADC-For-Weight-Scales-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-HX711-ADC-F or-Weight-Scales-Arduino-Library.git",
             "loadProg": 5372,
             "loadDyn": 258
         },
@@ -25513,7 +25513,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library used to easily operate with SI1142 and SI1147 Light Sensors",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-SI114X-sensor-easyC-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-SI114X-sens or-easyC-Arduino-Library.git",
             "loadProg": 4672,
             "loadDyn": 267
         },
@@ -25530,7 +25530,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "TCA9548A I2C Multiplexer Board",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-TCA9548A-I2C-Multiplexer-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-TCA9548A-I2 C-Multiplexer-Arduino-Library.git",
             "loadProg": 2176,
             "loadDyn": 220
         },
@@ -25547,7 +25547,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Hall Effect Sensor library (Analog and Digital, regular and EasyC)",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-Hall-Effect-Sensor-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-Hall-Effect -Sensor-Arduino-Library.git",
             "loadProg": 1812,
             "loadDyn": 193
         },
@@ -25564,7 +25564,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for MCP4018 Digital potentiometer breakout board.",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-Digipot-MCP4018-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-Digipot-MCP 4018-Arduino-Library.git",
             "loadProg": 3340,
             "loadDyn": 250
         },
@@ -25581,7 +25581,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Popular ADC boards by Soldered.",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-ADS1015-ADS1115-ADC-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-ADS1015-ADS 1115-ADC-Arduino-Library.git",
             "loadProg": 3460,
             "loadDyn": 326
         },
@@ -25598,7 +25598,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "AS3935 Lightning sensor Arduino library",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-AS3935-Lightning-detect-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-AS3935-Ligh tning-detect-Arduino-Library.git",
             "loadProg": 3596,
             "loadDyn": 416
         },
@@ -25615,7 +25615,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "128x64 OLED Display",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-OLED-Display-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-OLED-Displa y-Arduino-Library.git",
             "loadProg": 19532,
             "loadDyn": 363
         },
@@ -25632,7 +25632,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "MQ-X Gas Sensor Library by Soldered",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-MQ-Gas-Sensor-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-MQ-Gas-Sens or-Arduino-Library.git",
             "loadProg": 3318,
             "loadDyn": 269
         },
@@ -25666,7 +25666,7 @@
             "lib_platform": "arduino:avr:micro",
             "lib_sentence": "8x8 LED Matrix library.",
             "object": "lib",
-            "repolabel": "SolderedElectronics\/Soldered-8x8-MAX7219-LED-Matrix-Arduino-Library.git",
+            "repolabel": "SolderedElectronics\/Soldered-8x8-MAX7219 -LED-Matrix-Arduino-Library.git",
             "loadProg": 5414,
             "loadDyn": 85
         },
