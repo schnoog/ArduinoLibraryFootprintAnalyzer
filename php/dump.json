@@ -5671,12 +5671,12 @@
             "lib_lastcheck": "1683322373",
             "lib_minprogspace": 4442,
             "lib_mindynspace": 170,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Sequential Button Arduino Library",
             "object": "lib",
             "repolabel": "SMFSW\/SeqButton.git",
-            "loadProg": -224391,
-            "loadDyn": -18982
+            "loadProg": 980,
+            "loadDyn": 21
         },
         {
             "id": "5892",
@@ -7405,12 +7405,12 @@
             "lib_lastcheck": "1683140131",
             "lib_minprogspace": 11174,
             "lib_mindynspace": 617,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino LCD Keypad Shield driver.",
             "object": "lib",
             "repolabel": "dniklaus\/arduino-display-lcdkeypad.git",
-            "loadProg": -217659,
-            "loadDyn": -18535
+            "loadProg": 7712,
+            "loadDyn": 468
         },
         {
             "id": "8263",
@@ -19679,12 +19679,12 @@
             "lib_lastcheck": "1683315916",
             "lib_minprogspace": 18894,
             "lib_mindynspace": 1395,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Sensor driver for VL53L0X Ranging sensor",
             "object": "lib",
             "repolabel": "Seeed-Studio\/Grove-Ranging-sensor-VL53L0 X.git",
-            "loadProg": -209939,
-            "loadDyn": -17757
+            "loadProg": 15432,
+            "loadDyn": 1246
         },
         {
             "id": "24090",
@@ -20478,12 +20478,12 @@
             "lib_lastcheck": "1683321859",
             "lib_minprogspace": 4444,
             "lib_mindynspace": 190,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "this is simple class you can use to manage time and tasks",
             "object": "lib",
             "repolabel": "natnqweb\/Simpletimer.git",
-            "loadProg": -224389,
-            "loadDyn": -18962
+            "loadProg": 982,
+            "loadDyn": 41
         },
         {
             "id": "24987",
@@ -21804,12 +21804,12 @@
             "lib_lastcheck": "1683360824",
             "lib_minprogspace": 8232,
             "lib_mindynspace": 445,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "DFRobot Standard library(SKU:SEN0245).",
             "object": "lib",
             "repolabel": "DFRobot\/DFRobot_VL53L0X.git",
-            "loadProg": -220601,
-            "loadDyn": -18707
+            "loadProg": 4770,
+            "loadDyn": 296
         },
         {
             "id": "26618",
@@ -25935,12 +25935,12 @@
             "lib_lastcheck": "1683311933",
             "lib_minprogspace": 8218,
             "lib_mindynspace": 348,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Allows an Arduino board with USB capabilities (e.g. Leonardo, Arduino Micro, Arudino Due, etc.) to appear as a Joystick or Gamepad.",
             "object": "lib",
             "repolabel": "MHeironimus\/ArduinoJoystickLibrary",
-            "loadProg": -220615,
-            "loadDyn": -18804
+            "loadProg": 4756,
+            "loadDyn": 199
         },
         {
             "id": "29866",
@@ -25952,12 +25952,12 @@
             "lib_lastcheck": "1683322402",
             "lib_minprogspace": 4156,
             "lib_mindynspace": 209,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "A Base64 library for Arduino",
             "object": "lib",
             "repolabel": "agdl\/Base64.git",
-            "loadProg": -224677,
-            "loadDyn": -18943
+            "loadProg": 694,
+            "loadDyn": 60
         },
         {
             "id": "29881",
@@ -25969,12 +25969,12 @@
             "lib_lastcheck": "1683322487",
             "lib_minprogspace": 6006,
             "lib_mindynspace": 158,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "WatchDog Timer Functions",
             "object": "lib",
             "repolabel": "nadavmatalon\/WatchDog.git",
-            "loadProg": -222827,
-            "loadDyn": -18994
+            "loadProg": 2544,
+            "loadDyn": 9
         },
         {
             "id": "29916",
@@ -26258,12 +26258,12 @@
             "lib_lastcheck": "1683322194",
             "lib_minprogspace": 4088,
             "lib_mindynspace": 226,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Simple arduino timer.",
             "object": "lib",
             "repolabel": "kiryanenko\/SimpleTimer.git",
-            "loadProg": -224745,
-            "loadDyn": -18926
+            "loadProg": 626,
+            "loadDyn": 77
         },
         {
             "id": "30140",
@@ -26470,6 +26470,91 @@
             "loadDyn": 768
         },
         {
+            "id": "30220",
+            "lib_name": "Adafruit Protomatter",
+            "lib_url": "https:\/\/github.com\/adafruit\/Adafruit_Protomatter.git",
+            "lib_version": "1.0.1",
+            "lib_depends": "Adafruit GFX Library",
+            "lib_architectures": ",samd,nrf52,stm32,esp32,",
+            "lib_lastcheck": "1683378004",
+            "lib_minprogspace": 267805,
+            "lib_mindynspace": 19872,
+            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_sentence": "This is a library for the Adafruit RGB LED matrix.",
+            "object": "lib",
+            "repolabel": "adafruit\/Adafruit_Protomatter.git",
+            "loadProg": 38972,
+            "loadDyn": 720
+        },
+        {
+            "id": "30221",
+            "lib_name": "ESP32 RMT Peripheral VAN bus reader library",
+            "lib_url": "https:\/\/github.com\/morcibacsi\/esp32_rmt_van_rx.git",
+            "lib_version": "1.0.0",
+            "lib_depends": "",
+            "lib_architectures": ",esp32,",
+            "lib_lastcheck": "1683378009",
+            "lib_minprogspace": 251021,
+            "lib_mindynspace": 19432,
+            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_sentence": "ESP32 RMT Peripheral VAN bus reader library",
+            "object": "lib",
+            "repolabel": "morcibacsi\/esp32_rmt_van_rx.git",
+            "loadProg": 22188,
+            "loadDyn": 280
+        },
+        {
+            "id": "30223",
+            "lib_name": "ESP-WiFiSettings",
+            "lib_url": "https:\/\/github.com\/Juerd\/ESP-WiFiSettings.git",
+            "lib_version": "3.0.0",
+            "lib_depends": "",
+            "lib_architectures": ",esp32,esp8266,",
+            "lib_lastcheck": "1683378055",
+            "lib_minprogspace": 720773,
+            "lib_mindynspace": 44972,
+            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_sentence": "WiFi configuration manager for the ESP32 and ESP8266 platforms.",
+            "object": "lib",
+            "repolabel": "Juerd\/ESP-WiFiSettings.git",
+            "loadProg": 491940,
+            "loadDyn": 25820
+        },
+        {
+            "id": "30226",
+            "lib_name": "NodeRedTime",
+            "lib_url": "https:\/\/github.com\/Paraphraser\/NodeRedTime.git",
+            "lib_version": "1.0.0",
+            "lib_depends": "",
+            "lib_architectures": ",esp8266,esp32,",
+            "lib_lastcheck": "1683378071",
+            "lib_minprogspace": 699089,
+            "lib_mindynspace": 44056,
+            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_sentence": "Fetch Unix Epoch timestamp from Node-Red flow.",
+            "object": "lib",
+            "repolabel": "Paraphraser\/NodeRedTime.git",
+            "loadProg": 470256,
+            "loadDyn": 24904
+        },
+        {
+            "id": "30228",
+            "lib_name": "ESPPerfectTime",
+            "lib_url": "https:\/\/github.com\/hunamizawa\/ESPPerfectTime.git",
+            "lib_version": "0.1.0",
+            "lib_depends": "",
+            "lib_architectures": ",esp8266,esp32,",
+            "lib_lastcheck": "1683378081",
+            "lib_minprogspace": 657693,
+            "lib_mindynspace": 44176,
+            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_sentence": "An ESP8266\/ESP32 library that provides more accurate time using SNTP",
+            "object": "lib",
+            "repolabel": "hunamizawa\/ESPPerfectTime.git",
+            "loadProg": 428860,
+            "loadDyn": 25024
+        },
+        {
             "id": "30232",
             "lib_name": "PCF8574",
             "lib_url": "https:\/\/github.com\/RobTillaart\/PCF8574.git",
@@ -26479,12 +26564,80 @@
             "lib_lastcheck": "1683322621",
             "lib_minprogspace": 5954,
             "lib_mindynspace": 380,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino library for PCF8574 - I2C IO expander",
             "object": "lib",
             "repolabel": "RobTillaart\/PCF8574.git",
-            "loadProg": -222879,
-            "loadDyn": -18772
+            "loadProg": 2492,
+            "loadDyn": 231
+        },
+        {
+            "id": "30238",
+            "lib_name": "NX2003 library",
+            "lib_url": "https:\/\/gitlab.com\/chatpeth\/nx2003.git",
+            "lib_version": "1.0.0",
+            "lib_depends": "",
+            "lib_architectures": ",esp32,",
+            "lib_lastcheck": "1683378148",
+            "lib_minprogspace": 263793,
+            "lib_mindynspace": 19728,
+            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_sentence": "A library for NX2003 board.",
+            "object": "lib",
+            "repolabel": "chatpeth\/nx2003.git",
+            "loadProg": 34960,
+            "loadDyn": 576
+        },
+        {
+            "id": "30252",
+            "lib_name": "App Fernando K",
+            "lib_url": "https:\/\/github.com\/ferkoyanagi\/AppFernandok.git",
+            "lib_version": "1.0.0",
+            "lib_depends": "",
+            "lib_architectures": ",esp8266,esp32,",
+            "lib_lastcheck": "1683378198",
+            "lib_minprogspace": 665665,
+            "lib_mindynspace": 43976,
+            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_sentence": "Library that helps working with the Fernando K app",
+            "object": "lib",
+            "repolabel": "ferkoyanagi\/AppFernandok.git",
+            "loadProg": 436832,
+            "loadDyn": 24824
+        },
+        {
+            "id": "30257",
+            "lib_name": "Green Beacon",
+            "lib_url": "https:\/\/github.com\/ukkz\/green-beacon-esp32.git",
+            "lib_version": "0.1.0",
+            "lib_depends": "",
+            "lib_architectures": ",esp32,",
+            "lib_lastcheck": "1683378221",
+            "lib_minprogspace": 833037,
+            "lib_mindynspace": 43216,
+            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_sentence": "BLE beacon library compatible with LINE Simple Beacon",
+            "object": "lib",
+            "repolabel": "ukkz\/green-beacon-esp32.git",
+            "loadProg": 604204,
+            "loadDyn": 24064
+        },
+        {
+            "id": "30260",
+            "lib_name": "Lepton FLiR Thermal Camera Module Library",
+            "lib_url": "https:\/\/github.com\/NachtRaveVL\/Lepton-FLiR-Arduino.git",
+            "lib_version": "0.9.91",
+            "lib_depends": "",
+            "lib_architectures": ",teensy,esp32,",
+            "lib_lastcheck": "1683378254",
+            "lib_minprogspace": 268481,
+            "lib_mindynspace": 19736,
+            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_sentence": "Library to control a Lepton FLiR (forward looking infrared) thermal camera module from an Arduino-like board (Teensy 3+\/ESP32+ minimum).",
+            "object": "lib",
+            "repolabel": "NachtRaveVL\/Lepton-FLiR-Arduino.git",
+            "loadProg": 39648,
+            "loadDyn": 584
         },
         {
             "id": "30509",
@@ -26496,12 +26649,12 @@
             "lib_lastcheck": "1683322629",
             "lib_minprogspace": 4842,
             "lib_mindynspace": 190,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "MCP3208 8-Channel 12-Bit ADC communication.",
             "object": "lib",
             "repolabel": "RodolfoPrieto\/MCP3208.git",
-            "loadProg": -223991,
-            "loadDyn": -18962
+            "loadProg": 1380,
+            "loadDyn": 41
         },
         {
             "id": "30714",
@@ -26513,12 +26666,12 @@
             "lib_lastcheck": "1683322640",
             "lib_minprogspace": 5992,
             "lib_mindynspace": 477,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Arduino class to implement an I2C scanner.",
             "object": "lib",
             "repolabel": "RobTillaart\/I2C_SCANNER.git",
-            "loadProg": -222841,
-            "loadDyn": -18675
+            "loadProg": 2530,
+            "loadDyn": 328
         },
         {
             "id": "30723",
@@ -26530,12 +26683,12 @@
             "lib_lastcheck": "1683322644",
             "lib_minprogspace": 5342,
             "lib_mindynspace": 264,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Advanced button operation library",
             "object": "lib",
             "repolabel": "SmartElecRu\/ArduinoIDE_SE_Button.git",
-            "loadProg": -223491,
-            "loadDyn": -18888
+            "loadProg": 1880,
+            "loadDyn": 115
         },
         {
             "id": "30756",
@@ -26547,12 +26700,12 @@
             "lib_lastcheck": "1683322655",
             "lib_minprogspace": 7902,
             "lib_mindynspace": 362,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Allows an Arduino board to use multiple HCSR04 module.",
             "object": "lib",
             "repolabel": "bjoernboeckle\/HC_SR04.git",
-            "loadProg": -220931,
-            "loadDyn": -18790
+            "loadProg": 4440,
+            "loadDyn": 213
         },
         {
             "id": "30860",
@@ -26564,12 +26717,12 @@
             "lib_lastcheck": "1683322659",
             "lib_minprogspace": 4112,
             "lib_mindynspace": 161,
-            "lib_platform": "esp32:esp32:XIAO_ESP32S3",
+            "lib_platform": "arduino:avr:micro",
             "lib_sentence": "Library to easy handle a led connected to arduino.",
             "object": "lib",
             "repolabel": "yesbotics\/libs\/arduino\/led.git",
-            "loadProg": -224721,
-            "loadDyn": -18991
+            "loadProg": 650,
+            "loadDyn": 12
         },
         {
             "id": "59649",
