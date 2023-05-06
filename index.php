@@ -16,7 +16,7 @@ $tmp = fAddNewLibrary($url);
 
 // test a library by known ID
 if(true){
-    $id = 29890;
+    $id = 59649;
 
     $platform = 1;
     $platform = 5; //ESP32S3

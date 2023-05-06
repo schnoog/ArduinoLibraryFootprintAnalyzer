@@ -149,6 +149,7 @@ function FindLibraryExamples($library_url){
     for($x=0;$x < count($inos);$x++){
         if(strlen($inos[$x])> 0) $examples[] = $inos[$x];
     }
+
     $inos = explode("\n", `find "$libdir" -iname '*.pde' `);
     for($x=0;$x < count($inos);$x++){
         if(strlen($inos[$x])> 0) $examples[] = $inos[$x];
@@ -218,9 +219,9 @@ function TestLibraryByID($id, $platform = 1){
         if($valid == 1)DB::insertIgnore("testresults",$data);
     }
 
-    $sql = "Update libs SET lib_lastcheck = %i, lib_minprogspace = %i , lib_mindynspace = %i WHERE id = %i";
+    $sql = "Update libs SET lib_lastcheck = %i, lib_platform = %i, lib_minprogspace = %i , lib_mindynspace = %i WHERE id = %i";
     echo "$sql, " . time( ). ",$minPS,$minDS,$id"  .PHP_EOL;
-    DB::query($sql,time(),$minPS,$minDS,$id);
+    DB::query($sql,time(),$platform,$minPS,$minDS,$id);
 
 }
 
