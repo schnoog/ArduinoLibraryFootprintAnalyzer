@@ -9,8 +9,11 @@ $sql = "SELECT DISTINCT id, lib_name, lib_url, lib_architectures FROM libs WHERE
         lib_minprogspace > 9999998 AND ( lib_architectures LIKE '%,avr,%' OR lib_architectures LIKE ',*,' ) LIMIT 0,10000    ";
 
 $sql = "SELECT DISTINCT id, lib_name, lib_url, lib_architectures FROM libs WHERE  	
-        lib_lastcheck = 0 AND lib_architectures LIKE '%,esp32,%' LIMIT 0,10000    ";
+        lib_lastcheck = 0 AND lib_architectures LIKE '%,esp32,%'  LIMIT 0,10000    ";
 
+
+$sql = "SELECT DISTINCT id, lib_name, lib_url, lib_architectures FROM libs WHERE
+        lib_lastcheck = 0 AND lib_architectures LIKE '%,esp32,%'  LIMIT 0,10000    ";
 
 $platform = 1; //Micro
 $platform = 5; //ESP32S3
