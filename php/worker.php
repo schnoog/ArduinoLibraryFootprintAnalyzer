@@ -3,33 +3,25 @@
 error_reporting(E_ALL);
 include_once( __DIR__ . "/init.php");
 
-print_r($Settings);
-//exit;
+$sql = "SELECT DISTINCT id, lib_name, lib_url, lib_architectures FROM libs WHERE  	lib_lastcheck = 0 AND ( lib_architectures LIKE '%,avr,%' OR lib_architectures LIKE ',*,' ) LIMIT 0,10000    ";
 
-CreateSketch();
-//$prog_space = 0;
-//$dyn_space = 0;
+$sql = "SELECT DISTINCT id, lib_name, lib_url, lib_architectures FROM libs WHERE  	
+        lib_minprogspace > 9999998 AND ( lib_architectures LIKE '%,avr,%' OR lib_architectures LIKE ',*,' ) LIMIT 0,10000    ";
 
-//CompileSketch($prog_space,$dyn_space);
-
-
-//ClearAllLibraries();
+$sql = "SELECT DISTINCT id, lib_name, lib_url, lib_architectures FROM libs WHERE  	
+        lib_lastcheck = 0 AND lib_architectures LIKE '%,esp32,%' LIMIT 0,10000    ";
 
 
-//InstallLibrary("Adafruit SHT31 Library","1.1.8");
-//InstallLibrary("SIKTEC_AVR_Controller","1.0.6");
-//TestLibraryByID(18428);
-//TestNewestLibraryByName("Adafruit TCS34725");
-//exit;
+$platform = 1; //Micro
+$platform = 5; //ESP32S3
 
-
-$sql = "SELECT DISTINCT lib_name, lib_url, lib_architectures FROM libs WHERE  	lib_lastcheck = 0 AND ( lib_architectures LIKE '%,avr,%' OR lib_architectures LIKE ',*,' ) LIMIT 0,10000    ";
 $all =  DB::query($sql) ;
 //print_r($all);
 for($x = 0; $x < count($all);$x++){
         $libname = $all[$x]['lib_name'];
         echo "Testing Library $libname" . PHP_EOL;
-        if (!fIsLibraryChecked($all[$x]['lib_url'])) TestNewestLibraryByName($libname);
+        //if (!fIsLibraryChecked($all[$x]['lib_url'])) 
+        TestLibraryByID($all[$x]['id'],$platform);
 }
 
 

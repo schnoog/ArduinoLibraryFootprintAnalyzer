@@ -3,6 +3,7 @@
 use Composer\InstalledVersions;
 
 $installed = array();
+global $CurrentLibraryID, $CurrentExampleSketch;
 
 function CreateSketch(){
     global $Settings;
@@ -22,6 +23,7 @@ function CreateSketch(){
 
 function CompileSketch(&$prog_space, &$dyn_space,$platformid){
     global $Settings;
+    global $CurrentLibraryID, $CurrentExampleSketch;
     $isvalid = false;
     $sketch = $Settings['sketchFile'];
     $binary = $Settings['arduino-cli-bin'];
@@ -29,8 +31,8 @@ function CompileSketch(&$prog_space, &$dyn_space,$platformid){
     $dyn_space = 0;
     unlink($Settings['Compiler_Error_Temp_File']);
     $callstring =   " compile -b " . $Settings['platforms'][$platformid] . " " . $sketch . " 2>" . $Settings['Compiler_Error_Temp_File'];
-    //print_r($callstring);
-    $callstring;
+    print_r($callstring);
+    //$callstring;
     $compile_result = `$binary $callstring  `;
     //echo PHP_EOL . "--". PHP_EOL . "--" . PHP_EOL . "--" . PHP_EOL;
     if(strlen($compile_result)> 5){
@@ -52,6 +54,19 @@ function CompileSketch(&$prog_space, &$dyn_space,$platformid){
             $isvalid = false;
         }
 
+        if(!$isvalid){
+            $readfail = "cat " . $Settings['Compiler_Error_Temp_File'];
+            $fail = [
+                'library_id' => $CurrentLibraryID,
+                'examplesketch' => $CurrentExampleSketch,
+                'platform_id' => $platformid,
+                'failtime' => time(),
+                'failtext' => `$readfail`
+
+            ];
+            DB::insertIgnore("failedtests",$fail);
+
+        }
         //echo "Prog $prog_space  Dyn $dyn_space" . PHP_EOL;
         
     }
@@ -134,12 +149,20 @@ function FindLibraryExamples($library_url){
     for($x=0;$x < count($inos);$x++){
         if(strlen($inos[$x])> 0) $examples[] = $inos[$x];
     }
+    $inos = explode("\n", `find "$libdir" -iname '*.pde' `);
+    for($x=0;$x < count($inos);$x++){
+        if(strlen($inos[$x])> 0) $examples[] = $inos[$x];
+    }
+
+
+
     return $examples;
 }
 
 
 function TestLibraryByID($id, $platform = 1){
     global $Settings;
+    global $CurrentLibraryID , $CurrentExampleSketch;
     DB::query("Delete from testresults WHERE lib_id = %i", $id);
     $offProg = $Settings['platformdata'][$platform]['platform_emptyprog'] ;
     $offDyn = $Settings['platformdata'][$platform]['platform_emptydyn'] ;
@@ -152,6 +175,7 @@ function TestLibraryByID($id, $platform = 1){
     $completed = false;
     $minPS = 999999999;
     $minDS = 999999999;
+    $CurrentLibraryID = $id; 
     foreach($examples as $example){
         $from = $example;
         $to = $Settings['sketchFile'];
@@ -167,12 +191,13 @@ function TestLibraryByID($id, $platform = 1){
         $out .= "Prog Space: $prog_space  Dynamic Space $dyn_space " . PHP_EOL;
         echo $out;
         $sketch = basename($example);
+        $CurrentExampleSketch = $sketch;
         $valid = 1;
 
         if($prog_space <= $offProg) $prog_space = 9999999;
         if($dyn_space <= $offDyn) $dyn_space = 9999999;
         if($prog_space == 9999999){
-            $valid = 0;
+          //  $valid = 0;
         }
 
 

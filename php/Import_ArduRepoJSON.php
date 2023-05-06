@@ -36,8 +36,8 @@ foreach ($rdata['libraries'] as $lid => $snippet){
 	if(isset($snippet['sentence'])) $sentence = $snippet['sentence'];
 
 
-	//$data[] = [
-	$data = [
+	$data[] = [
+	//$data = [
 		'lib_name' => $snippet['name'],
 		'lib_url' => $snippet['repository'],
 		'lib_version' => $snippet['version'],
