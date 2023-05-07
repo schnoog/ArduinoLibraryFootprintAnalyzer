@@ -11,15 +11,17 @@ if(false){
 if(false){
 $url = "https://github.com/MHeironimus/ArduinoJoystickLibrary";
 $url = "https://github.com/schnoog/Joystick_ESP32S2";
+$url = "https://github.com/schnoog/vl53l0x-arduino-mod.git";
 $tmp = fAddNewLibrary($url);
 }
 
 // test a library by known ID
 if(true){
     $id = 59649;
+$id = 59651;
 
     $platform = 1;
-    $platform = 5; //ESP32S3
+    //$platform = 5; //ESP32S3
     //$platform = 2; //WEMOS D1 R32 - ESP32
     TestLibraryByID($id, $platform );
     $tmp = `cat /dev/shm/AFTAError.txt`;

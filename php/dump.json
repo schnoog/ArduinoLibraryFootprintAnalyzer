@@ -28168,6 +28168,23 @@
             "repolabel": "schnoog\/Joystick_ESP32S2",
             "loadProg": 20024,
             "loadDyn": 1452
+        },
+        {
+            "id": "59651",
+            "lib_name": "VL53L0X",
+            "lib_url": "https:\/\/github.com\/schnoog\/vl53l0x-arduino-mod.git",
+            "lib_version": "1.0.0",
+            "lib_depends": "",
+            "lib_architectures": ",*,",
+            "lib_lastcheck": "1683465794",
+            "lib_minprogspace": 9578,
+            "lib_mindynspace": 424,
+            "lib_platform": "arduino:avr:micro",
+            "lib_sentence": "VL53L0X distance sensor library - non blocking pololu fork - ",
+            "object": "lib",
+            "repolabel": "schnoog\/vl53l0x-arduino-mod.git",
+            "loadProg": 6116,
+            "loadDyn": 275
         }
     ]
 }
